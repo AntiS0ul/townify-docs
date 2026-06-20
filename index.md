@@ -1,82 +1,63 @@
-# Welcome to TownifyMC
+# Ways to Earn
 
-> **Build a town. Grow a nation. Rule the realm.**
+Here's every way to make money on TownifyMC, roughly ordered from "best for new players" to "advanced." Most players combine several of these.
 
-TownifyMC is a Towny survival-economy server where you start as a humble **Pleb** and work your way up a 27-rank ladder all the way to **Celestial**. Found a town, recruit residents, run a business, level up jobs and skills, and carve out your corner of the map.
+## Income sources at a glance
 
-This guide covers everything you need to go from "just joined" to "running a nation."
+| Source | Effort | Reliability | Best for |
+|--------|:------:|:-----------:|----------|
+| [Jobs](../progression/jobs.md) | Medium | ⭐⭐⭐⭐⭐ | Everyone — your main income |
+| [Voting](../rewards/voting.md) | Tiny | ⭐⭐⭐⭐⭐ | Free daily cash & keys |
+| [Daily Quests](../progression/quests.md) | Low | ⭐⭐⭐⭐ | Passive bonus while you play |
+| Selling to [`/shop`](shops.md) | Low | ⭐⭐⭐⭐ | Offloading gathered goods |
+| [Player shops](shops.md) | Setup | ⭐⭐⭐ | Passive income once built |
+| [Auction house](shops.md) | Low | ⭐⭐⭐ | Selling rare/valuable items |
+| [Fishing comps](fishing.md) | Medium | ⭐⭐⭐ | Competitive players |
+| [Battle Pass](../progression/quests.md) | Low | ⭐⭐⭐ | Seasonal rewards |
+| Spawners & farms | High setup | ⭐⭐⭐⭐ | Long-term passive money |
 
-!!! tip "New here? Start with these three pages"
-    1. [Connecting (Java & Bedrock)](getting-started/connecting.md) — get in the game
-    2. [Your First Hour](getting-started/first-hour.md) — what to do first
-    3. [The Rank Ladder](progression/ranks.md) — how progression works
+## 1. Jobs — your foundation
 
-## Jump to a topic
+[Jobs](../progression/jobs.md) pay you for mining, farming, fighting, building, and more. This is the **single most important income source** for almost every player. Pick jobs that match your playstyle, level them up, and the payouts grow. → [Full Jobs guide](../progression/jobs.md)
 
-<div class="grid cards" markdown>
+## 2. Voting — free money, every day
 
--   :material-rocket-launch: **Getting Started**
+[Voting](../rewards/voting.md) for the server on listing sites takes about a minute and pays out **money, Vote Points, and crate keys** every single day. There is no faster money-per-effort on the server. → [Voting guide](../rewards/voting.md)
 
-    ---
+## 3. Selling what you gather
 
-    Connect on Java or Bedrock, learn the essential commands, and find your feet.
+Everything you collect has value. Sell it:
 
-    [:octicons-arrow-right-24: Get started](getting-started/index.md)
+- **To the server shop** (`/shop`) for a guaranteed price.
+- **To other players** for potentially more, via player shops or the auction house.
 
--   :material-trophy: **Ranks & Progression**
+→ [Shops & Markets guide](shops.md)
 
-    ---
+## 4. Player shops & markets
 
-    27 ranks, jobs, skills, quests, and a battle pass. Here's how you climb.
+Once you've got some capital and a town plot, set up a **player shop** to sell goods passively while you're offline. Stock it with things players want (building blocks, food, enchanted gear, rare items) and let the money roll in. → [Shops & Markets guide](shops.md)
 
-    [:octicons-arrow-right-24: How to rank up](progression/ranks.md)
+## 5. The auction house
 
--   :material-home-city: **Towns & Nations**
+Got something rare and valuable? List it on the **[auction house](shops.md)** (`/ah`) where the whole server can bid or buy. Great for one-off high-value items that a fixed-price shop would undervalue.
 
-    ---
+## 6. Fishing competitions
 
-    Claim land, found a town, build a nation, and defend it in siege war.
+[Fishing](fishing.md) isn't just relaxing — TownifyMC runs **timed fishing competitions** with money and gem prizes for catching the biggest or rarest fish. Rare fish are also valuable to sell. → [Fishing guide](fishing.md)
 
-    [:octicons-arrow-right-24: Build a town](towns/index.md)
+## 7. Spawners and farms (long game)
 
--   :material-cash-multiple: **Making Money**
+Building automated **farms** (crops, mobs, etc.) and acquiring **spawners** creates passive income and resources at scale. Note that **Silk Touch spawner mining** unlocks at **Elder (rank #13)** — a milestone for serious money-makers who want to relocate and stack spawners.
 
-    ---
+## Putting it together — a money routine
 
-    Jobs, shops, player markets, auctions, and fishing competitions.
+The most efficient players don't pick *one* method, they **stack** them:
 
-    [:octicons-arrow-right-24: Start earning](money/index.md)
+!!! example "An efficient session"
+    Log in → claim [daily reward](../progression/quests.md) → [vote](../rewards/voting.md) → go mine at your [spawner farm](#7-spawners-and-farms-long-game) → this pays your **Miner job**, levels your **Mining skill**, completes a **daily quest**, fills your **inventory to sell**, and progresses your **battle pass** — all at once.
 
--   :material-gift: **Rewards**
-
-    ---
-
-    Vote daily for points and crate keys, then crack open seven kinds of crates.
-
-    [:octicons-arrow-right-24: Get rewards](rewards/index.md)
-
--   :material-bag-personal: **Perks & Extras**
-
-    ---
-
-    Backpacks, vaults, cosmetics, pets, brewing, and more unlockable extras.
-
-    [:octicons-arrow-right-24: See perks](perks/index.md)
-
-</div>
-
-## Quick facts
-
-| | |
-|---|---|
-| **Server type** | Towny survival + economy |
-| **Edition** | Java **and** Bedrock (crossplay) |
-| **Ranks** | 27 tiers, Pleb → Celestial |
-| **Jobs** | 12 to choose from |
-| **Live map** | [map.townifymc.xyz](https://map.townifymc.xyz) |
-| **Community** | [Discord](https://discord.gg/townifymc) |
+That overlap is the secret to getting rich on TownifyMC: do one activity, get paid five ways.
 
 ---
 
-!!! note "Staff note"
-    This guide is generated from the live server configuration, so prices, ranks, and rewards reflect what's actually on the server. A few values that haven't been finalized in-game yet (vote links, exact Discord invite, etc.) are marked with a :material-wrench: — swap those in before launch.
+**Next:** [Shops & Markets →](shops.md)
