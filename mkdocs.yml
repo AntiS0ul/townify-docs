@@ -1,0 +1,131 @@
+site_name: TownifyMC Guide
+site_description: The official player guide for TownifyMC — towns, ranks, jobs, economy, and everything in between.
+site_author: TownifyMC Staff
+site_url: https://guide.townifymc.xyz/
+
+# If/when you point a subdomain at this site, uncomment and set it here as well
+# (and add a docs/CNAME file — see README).
+# site_url: https://guide.townifymc.xyz/
+
+theme:
+  name: material
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  icon:
+    logo: material/castle
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.png
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: amber
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    # Dark mode (default for that "server night" feel)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.tooltips
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/townifymc
+      name: Join our Discord
+    - icon: material/map
+      link: https://map.townifymc.xyz
+      name: Live Map
+  generator: false
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - getting-started/index.md
+      - Connecting (Java & Bedrock): getting-started/connecting.md
+      - Your First Hour: getting-started/first-hour.md
+      - Server Rules: getting-started/rules.md
+  - Ranks & Progression:
+      - progression/index.md
+      - The Rank Ladder: progression/ranks.md
+      - Economy & Currencies: progression/economy.md
+      - Jobs: progression/jobs.md
+      - Skills: progression/skills.md
+      - Quests & Battle Pass: progression/quests.md
+  - Towns & Nations:
+      - towns/index.md
+      - Creating a Town: towns/towns.md
+      - Nations: towns/nations.md
+      - Sieges & War: towns/war.md
+  - Making Money:
+      - money/index.md
+      - Ways to Earn: money/making-money.md
+      - Shops & Markets: money/shops.md
+      - Fishing: money/fishing.md
+  - Rewards:
+      - rewards/index.md
+      - Voting: rewards/voting.md
+      - Crates: rewards/crates.md
+  - Perks & Extras:
+      - perks/index.md
+      - Storage & Backpacks: perks/storage.md
+      - Cosmetics & Pets: perks/cosmetics.md
+  - Reference:
+      - reference/index.md
+      - Command Reference: reference/commands.md
+      - FAQ: reference/faq.md
