@@ -1,9 +1,9 @@
 # Command Reference
 
-A grouped list of the commands you'll actually use on TownifyMC. Commands marked :material-wrench: depend on your exact server setup — confirm them in-game.
+A grouped list of the commands players use most often on TownifyMC.
 
 !!! tip "Forgot a command?"
-    In-game, `/help` lists commands, and most systems have a menu command (like `/jobs`, `/town`, `/vote`) that you can navigate with clicks instead of memorizing syntax.
+    In-game, `/help` lists available commands, and most systems have menus you can navigate by clicking.
 
 ## Essentials & general
 
@@ -12,6 +12,7 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 | `/spawn` | Teleport to server spawn |
 | `/help` | Built-in command help |
 | `/rules` | View the server rules |
+| `/menu` | Open the main server menu |
 | `/tpa <player>` | Request to teleport to a player |
 | `/tpaccept` · `/tpdeny` | Respond to a teleport request |
 | `/home` · `/sethome` | Teleport to / set a home |
@@ -28,11 +29,11 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 | `/bal` | Check your money balance |
 | `/baltop` | Richest players |
 | `/pay <player> <amount>` | Send money |
-| `/gems` :material-wrench: | Check your Gem balance |
+| `/gems` | Check your Gem balance |
 | `/shop` | Open the server shop |
-| `/market` :material-wrench: | Browse player markets |
+| `/market` | Browse or manage player markets |
 | `/ah` | Auction house |
-| `/pwarp` | Browse player warps |
+| `/pwarp` · `/pwarps` · `/playerwarps` | Browse player warps |
 
 ## Ranks & progression
 
@@ -40,19 +41,24 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 |---------|-------------|
 | `/rankup` | Rank up if you can afford it |
 | `/ranks` | Open the rank menu / see progress |
-| `/jobs` | Jobs menu (join, leave, stats) |
-| `/skills` | Skills menu and your levels |
-| `/quests` :material-wrench: | Daily quests |
-| `/rewards` :material-wrench: | Claim daily login reward |
-| `/battlepass` :material-wrench: | Battle pass menu |
+| `/jobs` | Jobs menu |
+| `/jobs join <job>` | Join a job |
+| `/jobs leave <job>` | Leave a job |
+| `/jobs stats` | See job levels and earnings |
+| `/skills` | AuraSkills menu |
+| `/stats` | View AuraSkills stats |
+| `/quests` | Daily quests |
+| `/rewards` | Login rewards |
+| `/battlepass` · `/bp` | Battle Pass menu |
 
 ## Towny — town
 
 | Command | What it does |
 |---------|-------------|
-| `/town` | Your town's info panel |
-| `/town new <name>` | Found a town (needs Countryman #5) |
+| `/town` | Your town info panel |
+| `/town new <name>` | Found a town at Countryman (#5) |
 | `/town claim` | Claim the current chunk |
+| `/town claim outpost` | Claim a detached outpost |
 | `/town unclaim` | Unclaim the current chunk |
 | `/town add <player>` | Invite a player |
 | `/town set spawn` | Set town spawn |
@@ -68,8 +74,8 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 
 | Command | What it does |
 |---------|-------------|
-| `/nation` | Your nation's info panel |
-| `/nation new <name>` | Found a nation (needs Warrior #10) |
+| `/nation` | Your nation info panel |
+| `/nation new <name>` | Found a nation at Warrior (#10) |
 | `/nation add <town>` | Invite a town |
 | `/nation ally add <nation>` | Propose an alliance |
 | `/nation enemy add <nation>` | Declare an enemy |
@@ -82,7 +88,7 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 |---------|-------------|-----------|
 | `/pv <number>` | Open a player vault | Landlord (#11)+ |
 | `/enderchest` · `/ec` | Open your enderchest | Landlord (#11) |
-| `/backpack` :material-wrench: | Open your backpack | Patriarch (#12)+ |
+| `/backpack` · `/bp open` | Open your backpack | Patriarch (#12)+ |
 | `/dispose` | Trash GUI | Patriarch (#12) |
 | `/condense` | Condense items to blocks | Mercenary (#6) |
 
@@ -90,25 +96,37 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 
 | Command | What it does |
 |---------|-------------|
-| `/vote` | Vote links & your points |
-| `/vote shop` | Spend Vote Points |
+| `/vote` | Vote links |
+| `/vote shop` | Vote shop |
 | `/vote top` | Top voters leaderboard |
-| `/crates` :material-wrench: | View crates & keys |
-| `/key` :material-wrench: | Check your key balance |
+| `/crates` | View crates and keys |
+| `/key` | Check your key balance |
+| `/warp crates` | Go to the crate area |
+
+## Fishing
+
+| Command | What it does |
+|---------|-------------|
+| `/evenmorefish` | EvenMoreFish main command |
+| `/emf help` | Fishing command help |
+| `/emf shop` | Fishing sell/shop menu |
+| `/emf sellall` | Sell fish |
+| `/emf top` | Fishing competition leaderboard |
+| `/emf next` | Upcoming competition info |
+| `/emf journal` | Fish journal |
 
 ## Cosmetics & social
 
 | Command | What it does |
 |---------|-------------|
-| `/cosmetics` · `/cc` :material-wrench: | Cosmetics menu |
-| `/pets` :material-wrench: | Pets menu |
+| `/cosmetics` · `/uc menu` | Cosmetics menu |
+| `/pets` · `/mcpets` | Pets menu |
 | `/marry <player>` | Propose marriage |
-| `/disguise` · `/d` :material-wrench: | Disguise yourself |
-| `/nick` | Set a nickname (Noble #14) |
+| `/disguise` · `/d` | Disguise yourself |
+| `/undisguise` | Remove disguise |
+| `/nick` | Set a nickname at Noble (#14) |
 
-## Workstation commands (rank-unlocked)
-
-These open portable versions of crafting stations, unlocked along the [rank ladder](../progression/ranks.md):
+## Workstation commands
 
 | Command | Station | Unlocks at |
 |---------|---------|-----------|
@@ -119,8 +137,3 @@ These open portable versions of crafting stations, unlocked along the [rank ladd
 | `/cartographytable` | Cartography table | Merchant (#7) |
 | `/smithingtable` | Smithing table | Constable (#8) |
 | `/anvil` | Anvil | Artisan (#9) |
-
----
-
-!!! note "This list isn't exhaustive"
-    TownifyMC runs 100+ plugins, so there are more commands than listed here. This covers what most players need day to day. Explore the in-game menus and `/help` for the rest.

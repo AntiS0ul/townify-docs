@@ -7,7 +7,7 @@ TownifyMC runs on **three currencies**, each earned and spent differently. Knowi
 | Currency | Symbol | What it's for | How you earn it |
 |----------|--------|---------------|-----------------|
 | **Money** | <span class="chip money">$</span> | The main economy — ranking up, shops, town costs, claims | Jobs, selling items, player trade |
-| **Gems** | <span class="chip gems">Gems</span> | Premium currency for special purchases | Voting, events, crates, store :material-wrench: |
+| **Gems** | <span class="chip gems">Gems</span> | Premium currency for special purchases | Voting, crates, events, and the store |
 | **Vote Points** | <span class="chip points">Points</span> | Spent in the vote shop | Voting for the server |
 
 ### :material-cash: Money (`$`)
@@ -33,11 +33,11 @@ This is the currency that runs everything day-to-day. The entire [rank ladder](r
 Gems are a **premium currency** — rarer than money and used for higher-value or special purchases. You'll typically earn them from voting rewards, events, and crates, and they may be available from the server store.
 
 ```
-/gems           # check your gem balance :material-wrench:
+/gems           # check your gem balance
 ```
 
 !!! note
-    Exact gem sources and the gem shop are configured server-side. Check the in-game menus and [Discord](https://discord.gg/townifymc) for the current ways to earn and spend Gems.
+    Exact gem sources and the gem shop are configured server-side. Check the in-game menus and [Discord](https://discord.gg/townify) for the current ways to earn and spend Gems.
 
 ### :material-star-circle: Vote Points
 

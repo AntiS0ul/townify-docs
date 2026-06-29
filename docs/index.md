@@ -7,7 +7,7 @@ TownifyMC is a Towny survival-economy server where you start as a humble **Pleb*
 This guide covers everything you need to go from "just joined" to "running a nation."
 
 !!! tip "New here? Start with these three pages"
-    1. [Connecting (Java & Bedrock)](getting-started/connecting.md) — get in the game
+    1. [Connecting](getting-started/connecting.md) — get in the game
     2. [Your First Hour](getting-started/first-hour.md) — what to do first
     3. [The Rank Ladder](progression/ranks.md) — how progression works
 
@@ -51,7 +51,7 @@ This guide covers everything you need to go from "just joined" to "running a nat
 
     ---
 
-    Vote daily for points and crate keys, then crack open seven kinds of crates.
+    Vote daily for Vote Crate keys, then crack open eight configured crates.
 
     [:octicons-arrow-right-24: Get rewards](rewards/index.md)
 
@@ -70,13 +70,14 @@ This guide covers everything you need to go from "just joined" to "running a nat
 | | |
 |---|---|
 | **Server type** | Towny survival + economy |
-| **Edition** | Java **and** Bedrock (crossplay) |
+| **Edition** | Java `1.21.11` and Bedrock crossplay |
 | **Ranks** | 27 tiers, Pleb → Celestial |
 | **Jobs** | 12 to choose from |
-| **Live map** | [map.townifymc.xyz](https://map.townifymc.xyz) |
-| **Community** | [Discord](https://discord.gg/townifymc) |
+| **Live map** | [map.townifymc.xyz:8123](http://map.townifymc.xyz:8123/) |
+| **Community** | [Discord](https://discord.gg/townify) |
+| **Store** | [store.townifymc.xyz](https://store.townifymc.xyz/) |
 
 ---
 
 !!! note "Staff note"
-    This guide is generated from the live server configuration, so prices, ranks, and rewards reflect what's actually on the server. A few values that haven't been finalized in-game yet (vote links, exact Discord invite, etc.) are marked with a :material-wrench: — swap those in before launch.
+    This guide is being updated from the live TownifyMC plugin configuration so commands, prices, ranks, and rewards stay close to the real server setup.

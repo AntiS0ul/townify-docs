@@ -1,6 +1,6 @@
 # Connecting to TownifyMC
 
-TownifyMC supports **both Java and Bedrock Edition** through crossplay, so you can play with friends no matter what device they're on.
+TownifyMC supports **Java Edition** and **Bedrock Edition** through Geyser.
 
 ## Server address
 
@@ -8,52 +8,42 @@ TownifyMC supports **both Java and Bedrock Edition** through crossplay, so you c
 
     | | |
     |---|---|
-    | **Address** | `play.townifymc.xyz` :material-wrench: |
-    | **Version** | Latest release (older versions supported via ViaVersion) |
+    | **Address** | `play.townifymc.xyz` |
+    | **Version** | `1.21.11` |
 
     1. Open Minecraft: Java Edition.
-    2. Click **Multiplayer** → **Add Server**.
-    3. Paste the address above into the **Server Address** field.
-    4. Click **Done**, then double-click the server to join.
-
-    !!! tip "Version flexibility"
-        You don't need to be on the exact latest version. The network runs ViaVersion/ViaBackwards, so a range of client versions can connect. If you can't get in, update to the most recent release.
+    2. Click **Multiplayer** -> **Add Server**.
+    3. Paste `play.townifymc.xyz` into the **Server Address** field.
+    4. Use Minecraft version **1.21.11**, then click **Done** and join.
 
 === "Bedrock Edition"
 
     | | |
     |---|---|
-    | **Address** | `play.townifymc.xyz` :material-wrench: |
-    | **Port** | `19132` :material-wrench: |
-
-    Bedrock players (mobile, console, Windows 10/11) connect through **Geyser**, which bridges Bedrock to our Java server.
+    | **Address** | `play.townifymc.xyz` |
+    | **Port** | `19132` |
 
     1. Open Minecraft: Bedrock Edition.
-    2. Go to **Servers** → **Add Server** (scroll to the bottom of the server list).
-    3. Enter a name (e.g. `TownifyMC`), the address, and the port above.
-    4. Save and join.
+    2. Go to **Servers** -> **Add Server**.
+    3. Enter `TownifyMC` as the name.
+    4. Enter `play.townifymc.xyz` as the address and `19132` as the port.
+    5. Save and join.
 
-    !!! note "Console players"
-        Some consoles restrict adding custom servers. If you're stuck, search online for "add custom server" instructions for your specific console, or ask in [Discord](https://discord.gg/townifymc) — other players have usually figured out the workaround for each platform.
+## Crossplay notes
 
-## Crossplay & linking accounts
-
-Java and Bedrock players share the **same world, economy, and towns** — you'll see each other in-game.
-
-- **Bedrock usernames** typically appear with a prefix (like a dot `.`) to avoid clashing with Java names.
-- If you play on **both** Java and Bedrock and want them treated as the same player, account linking may be available. Check the `/discord` channel or ask staff about linking your accounts so your balance, rank, and town carry across editions.
+Java and Bedrock players join the same server through Geyser. Bedrock login/authentication is handled by the server setup.
 
 ## Can't connect?
 
 Run through this quick checklist:
 
-- [ ] You typed the address exactly, with no extra spaces.
-- [ ] (Bedrock) You included the **port**.
-- [ ] Your client is on a reasonably recent version.
-- [ ] The server isn't restarting — check [Discord](https://discord.gg/townifymc) for announcements.
+- [ ] Java players typed `play.townifymc.xyz` exactly.
+- [ ] Java players are using Minecraft Java Edition **1.21.11**.
+- [ ] Bedrock players typed `play.townifymc.xyz` and port `19132` exactly.
+- [ ] The server is online and not restarting — check [Discord](https://discord.gg/townify) for announcements.
 
-Still stuck? Hop into our [Discord](https://discord.gg/townifymc) and a staff member or player will help you get connected.
+Still stuck? Hop into our [Discord](https://discord.gg/townify) and a staff member or player will help you get connected.
 
 ---
 
-**Next:** [Your First Hour →](first-hour.md)
+**Next:** [Your First Hour ->](first-hour.md)

@@ -1,6 +1,6 @@
 # Voting
 
-Voting is the **best free reward** on TownifyMC. It takes about a minute, you can do it every day, and it pays out money, Vote Points, and crate keys. Supporting the server this way also helps new players find us — everybody wins.
+Voting is the easiest free reward loop on TownifyMC. Each configured vote site rewards a **Vote Crate key**.
 
 ## How to vote
 
@@ -8,79 +8,32 @@ Voting is the **best free reward** on TownifyMC. It takes about a minute, you ca
 /vote
 ```
 
-This shows you the **vote links** and your current Vote Points. Click each link, complete the vote (you'll enter your exact in-game username), and the rewards land automatically.
+This opens the vote links. Vote on each site, enter your in-game username, and the reward is sent automatically.
 
-### Vote sites
+## Vote sites
 
-TownifyMC is listed on these voting sites:
+| Site | Link |
+|------|------|
+| PlanetMinecraft.com | [Vote](https://www.planetminecraft.com/server/townifymc/vote/) |
+| Minecraft-MP.com | [Vote](https://minecraft-mp.com/server/359865/vote/) |
+| TopG.org | [Vote](https://topg.org/minecraft-servers/server-683556) |
+| Minecraft.Buzz | [Vote](https://minecraft.buzz/vote/21911) |
+| TopMinecraftServers | [Vote](https://topminecraftservers.org/vote/38631) |
+| MinecraftServers.org | [Vote](https://minecraftservers.org/vote/665488) |
 
-| Site | What it is |
-|------|------------|
-| **PlanetMinecraft.com** | One of the biggest Minecraft community sites |
-| **Crafty.gg** | Popular server listing site |
-| **MCTools.org** | Server listing & tools site |
-
-!!! warning "Staff: add the vote links"
-    The vote-site **URLs aren't filled in yet** in the config :material-wrench:. Add your server's listing links so `/vote` shows clickable links, then update this table.
-
-!!! tip "Vote on all sites, every day"
-    Each site is a separate reward. Vote on **all of them** each day for the full payout. Most sites let you vote again every **24 hours**, so build it into your daily routine.
+Each site has a **24-hour** vote delay.
 
 ## What you get for voting
 
-Every vote rewards you instantly. Across the system you can earn:
+Every enabled vote site gives:
 
-- **Money** (`$`) — straight into your balance
-- **Vote Points** — spend them in the [vote shop](#the-vote-shop)
-- **Vote Crate keys** — open the [Vote Crate](crates.md) for loot
-
-### The Vote Shop
-
-Spend the Vote Points you accumulate:
+- **1 Vote Crate key**
 
 ```
-/vote shop      # or open it from the /vote menu
+/vote top
+/vote shop
 ```
-
-The vote shop stocks useful items and perks you can buy with points — a great use for all those points piling up from daily voting.
-
-## Bonus reward systems
-
-TownifyMC's voting does more than per-vote rewards. Watch for these:
-
-=== "Vote Party"
-
-    When the **whole server** hits a combined vote goal, a **Vote Party** triggers — and *everyone online* gets a reward. The more the community votes, the more often parties fire. So encourage your town and friends to vote too!
-
-=== "Vote Streaks"
-
-    Vote on **consecutive days** to build a **streak**. The longer your streak, the better your rewards get — so don't break the chain. Missing a day can cost you your streak bonus.
-
-=== "Milestones"
-
-    Hit **cumulative vote totals** (your lifetime vote count) to unlock one-time **milestone rewards**. These reward long-term, loyal voters.
-
-=== "Top Voter"
-
-    The server tracks **top voters** over time. Finishing near the top of the leaderboard can earn special **Top Voter rewards** — a friendly competition with real prizes.
-
-```
-/vote top       # see the top voters leaderboard
-```
-
-## Why it's worth it
-
-| Reward | Per vote | Bonus systems |
-|--------|:--------:|:-------------:|
-| Money | ✅ | Vote Party |
-| Vote Points | ✅ | — |
-| Crate keys | ✅ | — |
-| Streak bonuses | — | ✅ |
-| Milestone rewards | — | ✅ |
-| Top Voter prizes | — | ✅ |
-
-For ~60 seconds a day you get money, points, keys, **and** progress toward streaks, milestones, parties, and the top-voter board. It's the highest-value minute you'll spend on the server.
 
 ---
 
-**Next:** [Crates →](crates.md)
+**Next:** [Crates ->](crates.md)

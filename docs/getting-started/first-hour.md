@@ -11,7 +11,7 @@ Handy commands to know right away:
 - `/spawn` — teleport back to spawn anytime
 - `/rules` — read the server rules (do this!)
 - `/help` — built-in command help
-- `/menu` or `/cmenu` — opens the main server menu (if available) :material-wrench:
+- `/menu` — opens the main server menu.
 
 ## 2. Join a job
 
@@ -76,8 +76,8 @@ Reaching **Countryman** is the first big milestone — it lets you found your ow
 
 Minecraft is more fun with others:
 
-- Join the [Discord](https://discord.gg/townifymc) for announcements, help, and to find a town to join.
-- Use `/towny` and look at the [live map](https://map.townifymc.xyz) to find existing towns recruiting members. **Joining an established town** is often the fastest way to get set up — you skip the upfront cost of founding your own.
+- Join the [Discord](https://discord.gg/townify) for announcements, help, and to find a town to join.
+- Use `/towny` and look at the [live map](http://map.townifymc.xyz:8123/) to find existing towns recruiting members. **Joining an established town** is often the fastest way to get set up — you skip the upfront cost of founding your own.
 
 ## First-hour checklist
 
@@ -86,7 +86,7 @@ Minecraft is more fun with others:
 - [ ] Earned my first money (`/bal`)
 - [ ] Ranked up to Commoner (`/rankup`)
 - [ ] Voted for the server (free rewards! — see [Voting](../rewards/voting.md))
-- [ ] Joined the [Discord](https://discord.gg/townifymc)
+- [ ] Joined the [Discord](https://discord.gg/townify)
 
 ---
 

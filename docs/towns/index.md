@@ -46,7 +46,7 @@ You don't *have* to found your own town:
 
 === "Join an existing town"
 
-    **The easy mode for new players.** Find a town that's recruiting (ask in [Discord](https://discord.gg/townifymc) or browse the [live map](https://map.townifymc.xyz)), and join it. You get:
+    **The easy mode for new players.** Find a town that's recruiting (ask in [Discord](https://discord.gg/townify) or browse the [live map](http://map.townifymc.xyz:8123/)), and join it. You get:
 
     - Instant protected land to build on
     - No upfront town/claim costs

@@ -8,7 +8,7 @@ Everything you need in your first session on TownifyMC.
 
     ---
 
-    The server address, Java vs. Bedrock, and how crossplay works.
+    Java and Bedrock addresses, supported version, and how to join.
 
 -   :material-clock-fast: **[Your First Hour](first-hour.md)**
 
@@ -26,7 +26,7 @@ Everything you need in your first session on TownifyMC.
 
 ## The 30-second version
 
-1. **Connect** to the server (Java or Bedrock — see [Connecting](connecting.md)).
+1. **Connect** to the server — see [Connecting](connecting.md) for Java and Bedrock details.
 2. You spawn as a **Pleb** with **1 job slot**. Open `/jobs` and join a job.
 3. Start working that job to earn **money** (`$`). Check your balance with `/bal`.
 4. Save up **$500** and run `/rankup` to become a **Commoner**.
