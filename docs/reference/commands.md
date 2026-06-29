@@ -30,7 +30,6 @@ A grouped list of the commands players use most often on TownifyMC.
 | `/baltop` | Richest players |
 | `/pay <player> <amount>` | Send money |
 | `/gems` | Check your Gem balance |
-| `/shop` | Open the server shop |
 | `/market` | Browse or manage player markets |
 | `/ah` | Auction house |
 | `/pwarp` · `/pwarps` · `/playerwarps` | Browse player warps |
@@ -97,7 +96,6 @@ A grouped list of the commands players use most often on TownifyMC.
 | Command | What it does |
 |---------|-------------|
 | `/vote` | Vote links |
-| `/vote shop` | Vote shop |
 | `/vote top` | Top voters leaderboard |
 | `/crates` | View crates and keys |
 | `/key` | Check your key balance |
@@ -120,10 +118,7 @@ A grouped list of the commands players use most often on TownifyMC.
 | Command | What it does |
 |---------|-------------|
 | `/cosmetics` · `/uc menu` | Cosmetics menu |
-| `/pets` · `/mcpets` | Pets menu |
 | `/marry <player>` | Propose marriage |
-| `/disguise` · `/d` | Disguise yourself |
-| `/undisguise` | Remove disguise |
 | `/nick` | Set a nickname at Noble (#14) |
 
 ## Workstation commands

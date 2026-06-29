@@ -14,19 +14,6 @@ TownifyMC uses ExcellentCrates. Open crates with matching keys for money, Gems, 
 /warp crates
 ```
 
-## Configured crates
-
-| Crate config | Display name | Notes from config |
-|--------------|--------------|-------------------|
-| `vote` | Vote Crate | Includes Gem rewards and Epic keys |
-| `epic` | Epic Crate | Includes money rewards and key/deed rewards |
-| `frost` | Deluxe Crate | Includes backpacks, money, and key rewards |
-| `kings_crate` | Master Crate | Includes money and higher-tier key rewards |
-| `power` | Power Crate | Includes Coins and Epic/Deluxe key rewards |
-| `relic` | Relic Crate | Includes Gem rewards |
-| `spawner` | Spawner Crate | Spawner-focused rewards |
-| `sniffer` | Goat Rewards | Special reward crate |
-
 ## Getting more keys
 
 | Source | Which keys |

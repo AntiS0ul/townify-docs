@@ -60,4 +60,4 @@ Creating a player warp costs <span class="chip money">$10,000</span>. The rank l
 
 ---
 
-**Next:** [Cosmetics & Pets ->](cosmetics.md)
+**Next:** [Cosmetics ->](cosmetics.md)

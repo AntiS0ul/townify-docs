@@ -14,7 +14,7 @@ TownifyMC rewards players through voting, crates, login rewards, Battle Pass rew
 
     ---
 
-    Eight configured crates, from Vote Crate rewards to premium and special crates.
+    Crate rewards, from Vote Crate keys to premium and special crates.
 
 </div>
 
@@ -26,6 +26,6 @@ graph LR
     K --> C[Open Crates]
     L[Login Rewards] --> K
     B[Battle Pass] --> R[Season Rewards]
-    C --> G[Money, Gems, items, keys]
+    C --> G[Gems, items, and more keys]
     R --> G
 ```

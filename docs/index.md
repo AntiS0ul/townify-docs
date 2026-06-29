@@ -51,7 +51,7 @@ This guide covers everything you need to go from "just joined" to "running a nat
 
     ---
 
-    Vote daily for Vote Crate keys, then crack open eight configured crates.
+    Vote daily for Vote Crate keys, then open crates for extra rewards.
 
     [:octicons-arrow-right-24: Get rewards](rewards/index.md)
 
@@ -59,7 +59,7 @@ This guide covers everything you need to go from "just joined" to "running a nat
 
     ---
 
-    Backpacks, vaults, cosmetics, pets, brewing, and more unlockable extras.
+    Backpacks, vaults, cosmetics, brewing, and more unlockable extras.
 
     [:octicons-arrow-right-24: See perks](perks/index.md)
 

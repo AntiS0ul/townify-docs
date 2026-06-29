@@ -31,7 +31,6 @@ Every enabled vote site gives:
 
 ```
 /vote top
-/vote shop
 ```
 
 ---

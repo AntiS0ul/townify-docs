@@ -36,11 +36,7 @@ Check your balance any time:
 /bal
 ```
 
-You can also sell gathered items at the server shop (see [Shops & Markets](../money/shops.md)):
-
-```
-/shop
-```
+Once you have items worth selling, use player shops, markets, or the auction house. See [Shops & Markets](../money/shops.md) for how selling works on TownifyMC.
 
 ## 4. Rank up
 

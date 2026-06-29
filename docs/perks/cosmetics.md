@@ -1,23 +1,14 @@
-# Cosmetics & Pets
+# Cosmetics
 
-TownifyMC has several expression and quality-of-life systems: UltraCosmetics, MCPets, MarriageMaster, BreweryX, LibsDisguises, and GravesX.
+TownifyMC has several expression and quality-of-life systems: UltraCosmetics, MarriageMaster, BreweryX, and GravesX.
 
 ## Cosmetics
 
-UltraCosmetics provides visual cosmetics such as particle effects, gadgets, pets, morphs, hats, and other flair.
+UltraCosmetics provides visual cosmetics such as particle effects, gadgets, morphs, hats, and other flair.
 
 ```
 /cosmetics
 /uc menu
-```
-
-## Pets
-
-MCPets is installed for companion pets. Current pet configs include **Tiger** plus a test pet config.
-
-```
-/pets
-/mcpets
 ```
 
 ## Marriage
@@ -34,16 +25,6 @@ Reaching **Knight (#17)** unlocks the Marriage Priest perk from the rank ladder.
 ## Brewing
 
 BreweryX is installed for custom brewing, recipes, aging, and distilling.
-
-## Disguises
-
-LibsDisguises is installed for disguise features.
-
-```
-/disguise
-/d
-/undisguise
-```
 
 ## Death Chests / Graves
 

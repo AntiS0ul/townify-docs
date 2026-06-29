@@ -7,9 +7,9 @@ Here's every way to make money on TownifyMC, roughly ordered from "best for new 
 | Source | Effort | Reliability | Best for |
 |--------|:------:|:-----------:|----------|
 | [Jobs](../progression/jobs.md) | Medium | ⭐⭐⭐⭐⭐ | Everyone — your main income |
-| [Voting](../rewards/voting.md) | Tiny | ⭐⭐⭐⭐⭐ | Free daily cash & keys |
+| [Voting](../rewards/voting.md) | Tiny | ⭐⭐⭐⭐⭐ | Free daily Vote Crate keys |
 | [Daily Quests](../progression/quests.md) | Low | ⭐⭐⭐⭐ | Passive bonus while you play |
-| Selling to [`/shop`](shops.md) | Low | ⭐⭐⭐⭐ | Offloading gathered goods |
+| Selling to players | Low | ⭐⭐⭐⭐ | Offloading gathered goods |
 | [Player shops](shops.md) | Setup | ⭐⭐⭐ | Passive income once built |
 | [Auction house](shops.md) | Low | ⭐⭐⭐ | Selling rare/valuable items |
 | [Fishing comps](fishing.md) | Medium | ⭐⭐⭐ | Competitive players |
@@ -20,16 +20,16 @@ Here's every way to make money on TownifyMC, roughly ordered from "best for new 
 
 [Jobs](../progression/jobs.md) pay you for mining, farming, fighting, building, and more. This is the **single most important income source** for almost every player. Pick jobs that match your playstyle, level them up, and the payouts grow. → [Full Jobs guide](../progression/jobs.md)
 
-## 2. Voting — free money, every day
+## 2. Voting — free Vote Crate keys
 
-[Voting](../rewards/voting.md) for the server on listing sites takes about a minute and pays out **money, Vote Points, and crate keys** every single day. There is no faster money-per-effort on the server. → [Voting guide](../rewards/voting.md)
+[Voting](../rewards/voting.md) for the server on listing sites takes about a minute and pays out **Vote Crate keys** every day. It is one of the easiest free reward sources on the server. → [Voting guide](../rewards/voting.md)
 
 ## 3. Selling what you gather
 
 Everything you collect has value. Sell it:
 
-- **To the server shop** (`/shop`) for a guaranteed price.
-- **To other players** for potentially more, via player shops or the auction house.
+- **To other players** through player shops, markets, or the auction house.
+- **Through your own shop** once you have a town plot or a good marketplace location.
 
 → [Shops & Markets guide](shops.md)
 
@@ -39,7 +39,7 @@ Once you've got some capital and a town plot, set up a **player shop** to sell g
 
 ## 5. The auction house
 
-Got something rare and valuable? List it on the **[auction house](shops.md)** (`/ah`) where the whole server can bid or buy. Great for one-off high-value items that a fixed-price shop would undervalue.
+Got something rare and valuable? List it on the **[auction house](shops.md)** (`/ah`) where the whole server can bid or buy. Great for one-off high-value items that do not fit neatly in a regular player shop.
 
 ## 6. Fishing competitions
 

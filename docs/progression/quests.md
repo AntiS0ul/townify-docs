@@ -23,9 +23,9 @@ TownifyMC has daily, weekly, and monthly login rewards.
 
 | Reward | Cooldown | Normal reward | Premium reward |
 |--------|----------|---------------|----------------|
-| Daily | 24 hours | $500 + 250 XP | $1,000 + 500 XP + 1 Vote key |
-| Weekly | 168 hours | $2,500 + 1,250 XP + 1 Vote key | $5,000 + 2,500 XP + 2 Vote keys + 1 Epic key |
-| Monthly | 720 hours | $7,500 + 5,000 XP + 2 Vote keys | $15,000 + 10,000 XP + 4 Vote keys + 1 Deluxe key |
+| Daily | 1 day | $500 + 250 XP | $1,000 + 500 XP + 1 Vote key |
+| Weekly | 1 week | $2,500 + 1,250 XP + 1 Vote key | $5,000 + 2,500 XP + 2 Vote keys + 1 Epic key |
+| Monthly | 1 month | $7,500 + 5,000 XP + 2 Vote keys | $15,000 + 10,000 XP + 4 Vote keys + 1 Deluxe key |
 
 ## Battle Pass
 

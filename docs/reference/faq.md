@@ -24,8 +24,34 @@ Quick answers to the questions new players ask most. Can't find yours? Ask in [D
 ??? question "How do I rank up?"
     Save up money and run `/rankup`. Each rank costs more than the last (Pleb is free, the next is $500, and so on up to $160M for Celestial). Open `/ranks` to see your progress, and turn on **auto rank-up** so it happens automatically. See [The Rank Ladder](../progression/ranks.md).
 
-??? question "What's the difference between Money, Gems, and Vote Points?"
-    **Money** (`$`) runs the main economy — ranks, shops, towns. **Gems** are a premium currency for special purchases. **Vote Points** are earned by voting and spent in the vote shop. Full details: [Economy & Currencies](../progression/economy.md).
+??? question "What's the difference between Money and Gems?"
+    **Money** (`# FAQ
+
+Quick answers to the questions new players ask most. Can't find yours? Ask in [Discord](https://discord.gg/townify).
+
+## Getting in
+
+??? question "What's the server address?"
+    Java players connect at `play.townifymc.xyz` on version `1.21.11`. Bedrock players connect at `play.townifymc.xyz` with port `19132`. See [Connecting](../getting-started/connecting.md) for step-by-step instructions.
+
+??? question "Can I play on Bedrock / mobile / console?"
+    Yes. Bedrock players connect through Geyser using address `play.townifymc.xyz` and port `19132`.
+
+??? question "Do I need the latest Minecraft version?"
+    Java players should use Minecraft Java Edition **1.21.11**. Bedrock players should use a compatible current Bedrock client.
+
+??? question "I can't connect. What do I do?"
+    Double-check the Java address `play.townifymc.xyz`, or the Bedrock address `play.townifymc.xyz` with port `19132`, and check [Discord](https://discord.gg/townify) in case the server is restarting.
+
+## Money & ranks
+
+??? question "How do I make money as a new player?"
+    [Join a job](../progression/jobs.md) and work it — that's your main income. Then [vote daily](../rewards/voting.md) and do your [daily quests](../progression/quests.md) for free bonus cash. Full breakdown: [Ways to Earn](../money/making-money.md).
+
+??? question "How do I rank up?"
+    Save up money and run `/rankup`. Each rank costs more than the last (Pleb is free, the next is $500, and so on up to $160M for Celestial). Open `/ranks` to see your progress, and turn on **auto rank-up** so it happens automatically. See [The Rank Ladder](../progression/ranks.md).
+
+) runs the main economy — ranks, shops, towns. **Gems** are a premium currency for special purchases. Full details: [Economy & Currencies](../progression/economy.md).
 
 ??? question "How many jobs can I have?"
     You start with **1** job slot. A **2nd** unlocks at Merchant (rank #7) and a **3rd** at Duke (rank #23). See [Jobs](../progression/jobs.md).
@@ -59,7 +85,7 @@ Quick answers to the questions new players ask most. Can't find yours? Ask in [D
     Crates are at a physical location (usually near spawn). Open them with matching **keys** — the [Vote Crate](../rewards/crates.md) key comes free from daily voting. See [Crates](../rewards/crates.md).
 
 ??? question "I died — did I lose my stuff?"
-    Probably not! TownifyMC has **death chests (graves)** — your items are stored at your death location for you to recover. Head back reasonably promptly, as graves expire after a timer. See [Cosmetics & Pets → Death Chests](../perks/cosmetics.md#death-chests-graves).
+    Probably not! TownifyMC has **death chests (graves)** — your items are stored at your death location for you to recover. Head back reasonably promptly, as graves expire after a timer. See [Cosmetics → Death Chests](../perks/cosmetics.md#death-chests-graves).
 
 ??? question "How do I get more storage space?"
     Several ways, mostly rank-unlocked: **player vaults** (`/pv`), **backpacks**, and your **enderchest** (`/ec`). See [Storage & Backpacks](../perks/storage.md).
