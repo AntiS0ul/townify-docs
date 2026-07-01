@@ -25,33 +25,7 @@ Quick answers to the questions new players ask most. Can't find yours? Ask in [D
     Save up money and run `/rankup`. Each rank costs more than the last (Pleb is free, the next is $500, and so on up to $160M for Celestial). Open `/ranks` to see your progress, and turn on **auto rank-up** so it happens automatically. See [The Rank Ladder](../progression/ranks.md).
 
 ??? question "What's the difference between Money and Gems?"
-    **Money** (`# FAQ
-
-Quick answers to the questions new players ask most. Can't find yours? Ask in [Discord](https://discord.gg/townify).
-
-## Getting in
-
-??? question "What's the server address?"
-    Java players connect at `play.townifymc.xyz` on version `1.21.11`. Bedrock players connect at `play.townifymc.xyz` with port `19132`. See [Connecting](../getting-started/connecting.md) for step-by-step instructions.
-
-??? question "Can I play on Bedrock / mobile / console?"
-    Yes. Bedrock players connect through Geyser using address `play.townifymc.xyz` and port `19132`.
-
-??? question "Do I need the latest Minecraft version?"
-    Java players should use Minecraft Java Edition **1.21.11**. Bedrock players should use a compatible current Bedrock client.
-
-??? question "I can't connect. What do I do?"
-    Double-check the Java address `play.townifymc.xyz`, or the Bedrock address `play.townifymc.xyz` with port `19132`, and check [Discord](https://discord.gg/townify) in case the server is restarting.
-
-## Money & ranks
-
-??? question "How do I make money as a new player?"
-    [Join a job](../progression/jobs.md) and work it — that's your main income. Then [vote daily](../rewards/voting.md) and do your [daily quests](../progression/quests.md) for free bonus cash. Full breakdown: [Ways to Earn](../money/making-money.md).
-
-??? question "How do I rank up?"
-    Save up money and run `/rankup`. Each rank costs more than the last (Pleb is free, the next is $500, and so on up to $160M for Celestial). Open `/ranks` to see your progress, and turn on **auto rank-up** so it happens automatically. See [The Rank Ladder](../progression/ranks.md).
-
-) runs the main economy — ranks, shops, towns. **Gems** are a premium currency for special purchases. Full details: [Economy & Currencies](../progression/economy.md).
+    **Money** (`$`) runs the main economy - ranks, shops, towns. **Gems** are a premium currency for special purchases. Full details: [Economy & Currencies](../progression/economy.md).
 
 ??? question "How many jobs can I have?"
     You start with **1** job slot. A **2nd** unlocks at Merchant (rank #7) and a **3rd** at Duke (rank #23). See [Jobs](../progression/jobs.md).

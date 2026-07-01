@@ -13,8 +13,6 @@ A grouped list of the commands players use most often on TownifyMC.
 | `/help` | Built-in command help |
 | `/rules` | View the server rules |
 | `/menu` | Open the main server menu |
-| `/tpa <player>` | Request to teleport to a player |
-| `/tpaccept` · `/tpdeny` | Respond to a teleport request |
 | `/home` · `/sethome` | Teleport to / set a home |
 | `/back` | Return to your last location |
 | `/msg <player> <text>` | Private message |
@@ -95,7 +93,7 @@ A grouped list of the commands players use most often on TownifyMC.
 
 | Command | What it does |
 |---------|-------------|
-| `/vote` | Vote links |
+| `/vote` | Vote links for Vote Crate keys |
 | `/vote top` | Top voters leaderboard |
 | `/crates` | View crates and keys |
 | `/key` | Check your key balance |
