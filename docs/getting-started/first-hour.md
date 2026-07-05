@@ -11,7 +11,7 @@ Handy commands to know right away:
 - `/spawn` — teleport back to spawn anytime
 - `/rules` — read the server rules (do this!)
 - `/help` — built-in command help
-- `/menu` — opens the main server menu.
+- `/menu` or `/cmenu` — opens the main server menu (if available) :material-wrench:
 
 ## 2. Join a job
 
@@ -36,7 +36,11 @@ Check your balance any time:
 /bal
 ```
 
-Once you have items worth selling, use player shops, markets, or the auction house. See [Shops & Markets](../money/shops.md) for how selling works on TownifyMC.
+You can also sell the items you gather to other players on the **[player markets](../money/shops.md)** — TownifyMC's economy is player-run, so other players are your buyers:
+
+```
+/market
+```
 
 ## 4. Rank up
 
@@ -72,8 +76,8 @@ Reaching **Countryman** is the first big milestone — it lets you found your ow
 
 Minecraft is more fun with others:
 
-- Join the [Discord](https://discord.gg/townify) for announcements, help, and to find a town to join.
-- Use `/towny` and look at the [live map](http://map.townifymc.xyz:8123/) to find existing towns recruiting members. **Joining an established town** is often the fastest way to get set up — you skip the upfront cost of founding your own.
+- Join the [Discord](https://discord.gg/townifymc) for announcements, help, and to find a town to join.
+- Use `/towny` and look at the [live map](https://map.townifymc.xyz) to find existing towns recruiting members. **Joining an established town** is often the fastest way to get set up — you skip the upfront cost of founding your own.
 
 ## First-hour checklist
 
@@ -82,7 +86,7 @@ Minecraft is more fun with others:
 - [ ] Earned my first money (`/bal`)
 - [ ] Ranked up to Commoner (`/rankup`)
 - [ ] Voted for the server (free rewards! — see [Voting](../rewards/voting.md))
-- [ ] Joined the [Discord](https://discord.gg/townify)
+- [ ] Joined the [Discord](https://discord.gg/townifymc)
 
 ---
 

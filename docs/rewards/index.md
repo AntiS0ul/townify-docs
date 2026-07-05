@@ -1,6 +1,6 @@
 # Rewards
 
-TownifyMC rewards players through voting, crates, login rewards, Battle Pass rewards, events, and the server store.
+Free stuff! TownifyMC rewards you just for showing up and supporting the server. The two big systems here are **voting** (free daily rewards) and **crates** (loot boxes with the server's best items).
 
 <div class="grid cards" markdown>
 
@@ -8,24 +8,25 @@ TownifyMC rewards players through voting, crates, login rewards, Battle Pass rew
 
     ---
 
-    Vote daily on six listing sites to earn Vote Crate keys.
+    Vote for the server daily to earn money, Vote Points, and crate keys. The best free rewards on the server.
 
 -   :material-treasure-chest: **[Crates](crates.md)**
 
     ---
 
-    Crate rewards, from Vote Crate keys to premium and special crates.
+    Seven kinds of crates, from the everyday Vote Crate to the prestigious King's Crate.
 
 </div>
 
-## The reward loop
+## The daily reward loop
 
 ```mermaid
 graph LR
-    V[Vote daily] --> K[Vote Crate Keys]
+    V[Vote daily] --> P[Vote Points + Money]
+    V --> K[Crate Keys]
     K --> C[Open Crates]
-    L[Login Rewards] --> K
-    B[Battle Pass] --> R[Season Rewards]
-    C --> G[Gems, items, and more keys]
-    R --> G
+    C --> L[Loot: gear, money, gems, rare items]
+    L --> G[Get stronger / richer]
 ```
+
+Voting feeds you crate keys, crates give you loot, loot makes you stronger and richer. It costs nothing but a minute a day — there's no reason not to do it.
