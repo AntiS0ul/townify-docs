@@ -1,103 +1,36 @@
-# Cosmetics & Pets
+# Making Money
 
-This is the fun stuff — the features that let you express yourself, show off your progress, and add personality to your time on TownifyMC. None of it is required, but it's a big part of what makes the server feel alive.
+Money (`$`) runs everything on TownifyMC — it's how you [rank up](../progression/ranks.md), found a [town](../towns/towns.md), and buy your way to the top. This section covers every way to earn it.
 
-## Cosmetics
+<div class="grid cards" markdown>
 
-Deck out your character with **visual cosmetics** — particle trails, gadgets, emotes, and effects that have no gameplay impact but look great.
+-   :material-cash-multiple: **[Ways to Earn](making-money.md)**
 
-```
-/cosmetics      # open the cosmetics menu :material-wrench:
-/cc             # shortcut :material-wrench:
-```
+    ---
 
-Typical cosmetic categories include:
+    The complete rundown of every income source, ranked by reliability.
 
-- **Particle effects / trails** that follow you as you move
-- **Gadgets** — fun, toy-like items
-- **Pets** (see below)
-- **Morphs / hats** and other visual flair
+-   :material-store: **[Shops & Markets](shops.md)**
 
-Some cosmetics are free, others are unlocked through ranks, crates, events, or the store. Browse the menu to see what you've got and what's available.
+    ---
 
-## Pets
+    Player markets, the auction house, and setting up your own storefront.
 
-Summon **companion pets** that follow you around the world — a loyal sidekick for your adventures.
+-   :material-fish: **[Fishing](fishing.md)**
 
-```
-/pets           # open the pets menu :material-wrench:
-/mcpets         # alternative :material-wrench:
-```
+    ---
 
-Pets are cosmetic companions (collect them from rewards, crates, events, or the store). Some servers give pets little perks or animations — check the menu for what each one does on TownifyMC.
+    Catch rare fish and compete in timed fishing competitions for big rewards.
 
-## Marriage
+</div>
 
-Pair up with another player through the **marriage** system for shared perks and a bit of roleplay fun.
+## The short answer
 
-```
-/marry <player>     # propose to a player
-/marry              # marriage menu / status :material-wrench:
-```
+If you just want to make money fast as a new player:
 
-Married couples typically get perks like:
+1. **[Join a job](../progression/jobs.md)** and work it — this is your bread and butter.
+2. **Sell what you gather** on the [player markets](shops.md) or [auction house](shops.md).
+3. **[Vote daily](../rewards/voting.md)** for free money, points, and crate keys.
+4. **Do your [daily quests](../progression/quests.md)** — they pay out and overlap with your job.
 
-- The ability to **teleport to each other**
-- A private **partner chat**
-- Shared bonuses
-
-!!! info "Become a Priest"
-    Reaching **Knight (rank #17)** unlocks the **Marriage Priest** perk — letting you officiate other players' weddings. A fun bit of status for the mid-game.
-
-## Brewing (BreweryX)
-
-TownifyMC has a deep **custom brewing** system via BreweryX — craft specialty drinks and brews with real recipes, aging, and distilling. It's a whole crafting minigame of its own.
-
-Brewing access **expands as you rank up**:
-
-| Brewing tier | Unlocked at | Rank |
-|--------------|-------------|------|
-| Advanced Recipes | <span class="chip money">$8,000,000</span> | <span class="tier-rare">Aristocrat</span> (#15) |
-| Premium Aging | <span class="chip money">$26,000,000</span> | <span class="tier-epic">Viscount</span> (#19) |
-| Master Distilling | <span class="chip money">$42,000,000</span> | <span class="tier-legendary">Jarl</span> (#21) |
-| Legendary Recipes | <span class="chip money">$130,000,000</span> | <span class="tier-royal">Imperator</span> (#26) |
-
-So brewing goes from a hobby to a genuine high-tier craft as you progress — higher ranks unlock better recipes, aging, and distilling techniques.
-
-## Disguises
-
-Transform your appearance with the **disguise** system — turn into mobs and other forms.
-
-```
-/disguise       # disguise yourself :material-wrench:
-/d              # shortcut :material-wrench:
-/undisguise     # turn back :material-wrench:
-```
-
-Disguises are mostly cosmetic fun (access may be tied to ranks, perks, or the store).
-
-## Death Chests (Graves)
-
-Not a cosmetic, but a quality-of-life feature you'll be grateful for: when you die, your items don't scatter and despawn — they're stored in a **grave** at your death location for you to recover.
-
-- Walk back to your grave and retrieve your items safely.
-- Graves protect your stuff from being snatched (within the rules).
-- Check the grave's hologram/timer so you know how long you have to get back.
-
-!!! warning "Graves aren't forever"
-    Graves usually have a **timer** before they expire. Head back to recover your items reasonably promptly, especially after a death in a dangerous area.
-
-## Other expression perks
-
-A handful of rank-unlocked ways to stand out:
-
-| Perk | What it does | Unlocks at |
-|------|-------------|-----------|
-| `/nick` | Set a nickname | <span class="tier-rare">Noble</span> (#14) |
-| Colored Nicknames | Add color to your nick | <span class="tier-epic">Esquire</span> (#16) |
-| Player Carry | Pick up / carry other players | <span class="tier-epic">Esquire</span> (#16) |
-| DrawOnMap | Create custom map art (expands with rank) | <span class="tier-uncommon">Artisan</span> (#9)+ |
-
----
-
-**Related:** [The Rank Ladder](../progression/ranks.md) — most perks unlock here.
+Once you've got starter capital, graduate to running a [player shop](shops.md) or flipping items on the [auction house](shops.md).

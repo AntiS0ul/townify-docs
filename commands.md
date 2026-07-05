@@ -1,68 +1,55 @@
-# Quests & Battle Pass
+# Crates
 
-Beyond the rank ladder, TownifyMC gives you **daily goals** and **seasonal progression** to chase. These are some of the best ways to earn steady rewards just for playing regularly.
+Crates are TownifyMC's loot boxes — open them with **keys** for a chance at money, gear, rare items, and Gems. There are **seven crates**, ranging from the everyday Vote Crate to the prestigious King's Crate.
 
-## Daily Quests
+## How crates work
 
-Every day you get a fresh set of quests — small objectives like mining a certain amount, killing mobs, farming crops, or fishing. Complete them for rewards.
-
-```
-/quests         # open your daily quests :material-wrench:
-/dailyquests    # alternative command :material-wrench:
-```
-
-**Why bother:** daily quests are designed to reward the things you're doing anyway. Knocking them out each day is a reliable trickle of money, items, and progression — and they reset every day, so there's always something to do.
-
-!!! tip "Stack with jobs"
-    Many daily quests overlap with [job](jobs.md) activities. If your quest is "mine 200 stone" and you're a Miner, you complete the quest **and** earn job money **and** level your Mining skill in one go.
-
-## Daily Login Rewards
-
-Just logging in pays off. TownifyMC has a **login reward** system with an escalating streak — the more consecutive days you log in, the better the rewards get.
+1. **Get a key** — from [voting](voting.md), events, the store, rewards, or as drops.
+2. **Go to the crate area** — crates are physical at a designated location (usually near spawn).
+3. **Open it** — right-click the crate with the matching key (or use the preview to see what's inside first).
 
 ```
-/rewards        # claim your daily login reward :material-wrench:
-/daily          # alternative command :material-wrench:
+/crates         # view crates and your keys :material-wrench:
+/key            # check your key balance :material-wrench:
 ```
 
-**Keep your streak alive** — missing a day can reset your progress back toward the smaller rewards, so it pays to pop in daily even if only for a minute.
+!!! tip "Preview before you open"
+    Most crates let you **preview** the full loot table and the odds. Take a look so you know what you're rolling for — and which crates are worth chasing keys for.
 
-## Battle Pass
+## The seven crates
 
-TownifyMC runs a **seasonal Battle Pass** with two tracks:
+| Crate | Rarity | How you get keys | Typical loot |
+|-------|:------:|------------------|--------------|
+| :material-vote: **Vote Crate** | Common | [Voting](voting.md) daily | Money, useful items, the occasional rare drop |
+| :material-flash: **Power Crate** | Uncommon | Events, store, rewards | Stronger gear, better payouts |
+| :material-snowflake: **Frost Crate** | Rare | Events, seasonal | Themed and rare items |
+| :material-diamond-stone: **Epic Crate** | Epic | Events, store, rewards | High-value gear and items |
+| :material-shimmer: **Relic Crate** | Legendary | Rare sources, events | Prestige items and rare rewards |
+| :material-crown: **King's Crate** | Top tier | The hardest to get | The server's best and rarest loot |
+| :material-spawn: **Spawner Crate** | Special | Events, store | **Mob spawners** and farm-related rewards |
 
-| Track | Cost | What you get |
-|-------|------|--------------|
-| **Free** | Free for everyone | A solid set of rewards as you tier up |
-| **Premium** | Purchase/unlock :material-wrench: | Everything in Free **plus** an upgraded reward at most tiers |
+!!! note "Loot tables are server-configured"
+    Exact contents and drop chances live in the crate configs and may be tuned over time. **Preview each crate in-game** for the definitive, current loot list and odds.
 
-```
-/battlepass     # open the battle pass menu :material-wrench:
-/bp             # shortcut :material-wrench:
-```
+### Crate tiers explained
 
-### How it works
+- **Vote Crate** — your daily driver. Free keys from [voting](voting.md) every day, so you'll open these constantly. Solid, dependable rewards.
+- **Power / Frost / Epic** — the mid-to-high tier. Keys come from events, rewards, and the store. Noticeably better loot than the Vote Crate.
+- **Relic / King's** — the prestige crates. Keys are scarce and the loot is the best on the server. Cracking a King's Crate is a moment.
+- **Spawner Crate** — the specialist. This is a key source of **spawners**, which are valuable for building [passive money farms](../money/making-money.md#7-spawners-and-farms-long-game).
 
-- You earn **Battle Pass XP** by completing **missions** and playing during the season.
-- XP fills tiers; each tier you reach hands out rewards on whichever track(s) you have.
-- Seasons **rotate** — when one ends, a new set of tiers and rewards begins, so there's always a fresh climb.
-- There's also a **Battle Pass shop** where you can spend currency earned through the pass.
+## Getting more keys
 
-!!! info "Free track is genuinely worth it"
-    Even without premium, the free track rewards you just for completing missions and playing through the season. Premium upgrades the payouts, but no one's locked out of progression.
+| Source | Which keys |
+|--------|-----------|
+| [Daily voting](voting.md) | Vote Crate keys |
+| Events & competitions | Various, often higher-tier |
+| [Daily rewards / streaks](../progression/quests.md) | Occasional keys |
+| Server store | Premium crate keys :material-wrench: |
+| [Battle Pass](../progression/quests.md) | Keys as tier rewards |
 
-## Putting it together
-
-A good daily routine on TownifyMC:
-
-1. **Log in** → claim your [daily reward](#daily-login-rewards).
-2. **[Vote](../rewards/voting.md)** → points, money, and crate keys.
-3. **Check [daily quests](#daily-quests)** → see what today's objectives are.
-4. **Play your [job](jobs.md)** in a way that knocks out quests and battle-pass missions at the same time.
-5. **Crack any [crate keys](../rewards/crates.md)** you earned.
-
-Do that and you're progressing on five systems at once — rank, jobs, skills, quests, and the battle pass — from a single play session.
+The most consistent **free** key source is [voting](voting.md) — vote every day and you'll always have Vote Crate keys to open.
 
 ---
 
-**Related:** [Voting](../rewards/voting.md) · [Crates](../rewards/crates.md)
+**Related:** [Voting](voting.md) · [Making Money](../money/making-money.md)

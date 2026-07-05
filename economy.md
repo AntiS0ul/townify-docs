@@ -1,71 +1,79 @@
-# Skills
+# The Rank Ladder
 
-On top of jobs, TownifyMC has an **RPG-style skill system** that levels up passively as you play. Where [jobs](jobs.md) pay you money, **skills** make your character stronger — better stats, useful abilities, and bonuses to the activities you do most.
+TownifyMC's progression spine is a **27-rank ladder**. You start as a **Pleb** and climb all the way to **Celestial**, unlocking new commands, perks, and quality-of-life features along the way.
 
-## How skills work
+## How ranking up works
 
-You don't "join" skills like you do jobs — they level up automatically through the related activity. Mine ore and your **Mining** skill rises; fight mobs and your combat skills climb; and so on.
+Ranks are unlocked with **money** (`$`). To rank up:
 
 ```
-/skills         # open the skills menu and see your levels
-/stats          # view your stats (health, strength, etc.) :material-wrench:
+/rankup
 ```
 
-Each skill level grants a small permanent bonus, and many skills unlock **abilities** and **mana abilities** as they level — active or passive perks tied to that skill.
+If you can afford the next rank, the cost is deducted and you're promoted instantly. Open the rank menu to see your progress toward the next tier:
 
-## The skill set
+```
+/ranks
+```
 
-TownifyMC uses a full suite of gathering, combat, and utility skills. Broadly they fall into three groups:
+!!! tip "Turn on auto rank-up"
+    In the rank menu there's an **auto rank-up** toggle (the emerald/redstone button). Enable it and you'll be promoted automatically as soon as you can afford the next rank.
 
-=== "Gathering"
+!!! info "Ranks are cumulative"
+    When you rank up, you **keep** all the perks from previous ranks — you're not trading them away. Each new rank stacks on top of the last.
 
-    | Skill | Levels from |
-    |-------|-------------|
-    | **Farming** | Harvesting crops |
-    | **Foraging** | Chopping wood |
-    | **Mining** | Mining ores and stone |
-    | **Fishing** | Catching fish |
-    | **Excavation** | Digging dirt, sand, gravel |
+## Reading the ladder
 
-=== "Combat"
+Costs are the **price to reach that rank**. Each rank lists its headline unlocks; many also grant quality-of-life commands. Two ranks are major gameplay gates:
 
-    | Skill | Levels from |
-    |-------|-------------|
-    | **Archery** | Ranged kills with a bow |
-    | **Fighting** | Melee combat |
-    | **Defense** | Taking and surviving damage |
+- **:material-home-plus: Countryman (#5)** — unlocks **creating a town**
+- **:material-flag: Warrior (#10)** — unlocks **creating a nation**
 
-=== "Utility"
+## Full rank list
 
-    | Skill | Levels from |
-    |-------|-------------|
-    | **Endurance** | Sprinting, surviving, sustained activity |
-    | **Agility** | Movement and avoiding fall damage |
-    | **Alchemy** | Brewing potions |
-    | **Enchanting** | Enchanting gear |
-    | **Sorcery** | Magical actions |
-    | **Healing** | Regeneration and support |
-    | **Forging** | Repairing and crafting gear |
+| # | Rank | Cost to reach | Key unlocks |
+|--:|------|--------------|-------------|
+| 1 | <span class="tier-common">Pleb</span> | <span class="chip money">Free</span> | Starting rank · 1 job slot |
+| 2 | <span class="tier-common">Commoner</span> | <span class="chip money">$500</span> | `/craft` |
+| 3 | <span class="tier-common">Citizen</span> | <span class="chip money">$1,500</span> | `/stonecutter` |
+| 4 | <span class="tier-common">Servant</span> | <span class="chip money">$4,000</span> | `/loom` · Night Vision |
+| 5 | <span class="tier-common">Countryman</span> | <span class="chip money">$10,000</span> | **🏘️ Create Town** |
+| 6 | <span class="tier-uncommon">Mercenary</span> | <span class="chip money">$25,000</span> | `/grindstone` · `/condense` |
+| 7 | <span class="tier-uncommon">Merchant</span> | <span class="chip money">$60,000</span> | **2nd job slot** · `/cartographytable` |
+| 8 | <span class="tier-uncommon">Constable</span> | <span class="chip money">$125,000</span> | `/smithingtable` |
+| 9 | <span class="tier-uncommon">Artisan</span> | <span class="chip money">$250,000</span> | `/anvil` · DrawOnMap (Basic) |
+| 10 | <span class="tier-uncommon">Warrior</span> | <span class="chip money">$500,000</span> | **🚩 Create Nation** |
+| 11 | <span class="tier-rare">Landlord</span> | <span class="chip money">$1,000,000</span> | `/enderchest` · `/pv 1` |
+| 12 | <span class="tier-rare">Patriarch</span> | <span class="chip money">$2,000,000</span> | Backpack Tier 1 · `/dispose` · `/feed` (24h) |
+| 13 | <span class="tier-rare">Elder</span> | <span class="chip money">$3,500,000</span> | Silk Touch Spawners · `/pv 1–2` |
+| 14 | <span class="tier-rare">Noble</span> | <span class="chip money">$5,500,000</span> | `/nick` · Sign Editing · DrawOnMap Easels · `/feed` (12h) |
+| 15 | <span class="tier-rare">Aristocrat</span> | <span class="chip money">$8,000,000</span> | Walk Speed I · BreweryX Advanced Recipes |
+| 16 | <span class="tier-epic">Esquire</span> | <span class="chip money">$11,000,000</span> | Colored Nicknames · Player Carry |
+| 17 | <span class="tier-epic">Knight</span> | <span class="chip money">$15,000,000</span> | Marriage Priest · Walk Speed II · `/feed` (6h) · `/pv 1–3` |
+| 18 | <span class="tier-epic">Baron</span> | <span class="chip money">$20,000,000</span> | DrawOnMap Catalog Access |
+| 19 | <span class="tier-epic">Viscount</span> | <span class="chip money">$26,000,000</span> | Walk Speed III · BreweryX Premium Aging |
+| 20 | <span class="tier-epic">Count</span> | <span class="chip money">$33,000,000</span> | Biome RTP · 1 Player Warp · Backpack Tier 2 · `/feed` (4h) · `/pv 1–4` |
+| 21 | <span class="tier-legendary">Jarl</span> | <span class="chip money">$42,000,000</span> | 2 Player Warps · BreweryX Master Distilling |
+| 22 | <span class="tier-legendary">Marquess</span> | <span class="chip money">$53,000,000</span> | Fly in Claims |
+| 23 | <span class="tier-legendary">Duke</span> | <span class="chip money">$67,000,000</span> | **3rd job slot** · Backpack Tier 3 · `/feed` (2h) · `/pv 1–5` |
+| 24 | <span class="tier-legendary">Heir</span> | <span class="chip money">$84,000,000</span> | Fly Speed II |
+| 25 | <span class="tier-royal">Royal</span> | <span class="chip money">$105,000,000</span> | Wilderness Fly · 5 Warps · Fly Speed II · DrawOnMap Image Import · `/feed` (1h) |
+| 26 | <span class="tier-royal">Imperator</span> | <span class="chip money">$130,000,000</span> | Fly Speed III · BreweryX Legendary Recipes |
+| 27 | <span class="tier-celestial">Celestial</span> | <span class="chip money">$160,000,000</span> | **Global Fly** · Fly Speed IV · Full DrawOnMap Access · `/feed` (30m) · `/pv 1–6` |
 
-!!! note "Exact skills may vary"
-    The available skills and their bonuses are configured server-side. Open `/skills` in-game for the definitive list, your current levels, and the abilities each one unlocks.
+## Milestones at a glance
 
-## Skills vs. Jobs — what's the difference?
+The ladder is a long game. Here's the shape of it:
 
-| | [Jobs](jobs.md) | Skills |
-|---|---|---|
-| **Reward** | Money (`$`) | Stats, abilities, passive bonuses |
-| **How you join** | Manually, limited slots | Automatic, all at once |
-| **What they're for** | Income & ranking up | Making your character stronger |
+- **Ranks 1–5 (Pleb → Countryman):** the early grind. Cheap ranks, portable workstations, and your first town.
+- **Ranks 6–10 (Mercenary → Warrior):** more job slots, more crafting tools, and your first nation.
+- **Ranks 11–15 (Landlord → Aristocrat):** personal storage (`/pv`, enderchest, backpacks), nicknames, and walk speed.
+- **Ranks 16–20 (Esquire → Count):** flair, player warps, and the start of flight-adjacent perks.
+- **Ranks 21–27 (Jarl → Celestial):** the endgame — flight, top-tier storage, and full access to premium features.
 
-They're complementary: do an activity and you earn **money** from your job *and* level the matching **skill** at the same time. There's no reason not to engage with both.
-
-## Tips
-
-- **Lean into your main activity.** Whatever you do most (mining, fighting, farming) will naturally push those skills high — focus there first for the biggest early payoff.
-- **Check ability unlocks.** Some skill abilities are genuinely powerful (extra drops, faster gathering, combat boosts). Open `/skills` and read what each level grants so you know what you're working toward.
-- **Skills support your jobs.** Higher gathering skills often mean more drops, which means more to sell and more job payouts — a nice feedback loop.
+!!! note "Flight unlocks gradually"
+    Flight isn't a single unlock — it ramps up. **Fly in Claims** at Marquess (#22), then **Wilderness Fly** at Royal (#25), and finally **Global Fly** at Celestial (#27), with fly speed increasing along the way.
 
 ---
 
-**Next:** [Quests & Battle Pass →](quests.md)
+**Related:** [Economy & Currencies](economy.md) · [Jobs](jobs.md) (your main income)

@@ -1,126 +1,68 @@
-# Command Reference
+# Quests & Battle Pass
 
-A grouped list of the commands you'll actually use on TownifyMC. Commands marked :material-wrench: depend on your exact server setup — confirm them in-game.
+Beyond the rank ladder, TownifyMC gives you **daily goals** and **seasonal progression** to chase. These are some of the best ways to earn steady rewards just for playing regularly.
 
-!!! tip "Forgot a command?"
-    In-game, `/help` lists commands, and most systems have a menu command (like `/jobs`, `/town`, `/vote`) that you can navigate with clicks instead of memorizing syntax.
+## Daily Quests
 
-## Essentials & general
+Every day you get a fresh set of quests — small objectives like mining a certain amount, killing mobs, farming crops, or fishing. Complete them for rewards.
 
-| Command | What it does |
-|---------|-------------|
-| `/spawn` | Teleport to server spawn |
-| `/help` | Built-in command help |
-| `/rules` | View the server rules |
-| `/tpa <player>` | Request to teleport to a player |
-| `/tpaccept` · `/tpdeny` | Respond to a teleport request |
-| `/home` · `/sethome` | Teleport to / set a home |
-| `/back` | Return to your last location |
-| `/msg <player> <text>` | Private message |
-| `/r <text>` | Reply to last message |
-| `/afk` | Mark yourself away |
-| `/discord` | Get the Discord invite |
+```
+/quests         # open your daily quests :material-wrench:
+/dailyquests    # alternative command :material-wrench:
+```
 
-## Economy & money
+**Why bother:** daily quests are designed to reward the things you're doing anyway. Knocking them out each day is a reliable trickle of money, items, and progression — and they reset every day, so there's always something to do.
 
-| Command | What it does |
-|---------|-------------|
-| `/bal` | Check your money balance |
-| `/baltop` | Richest players |
-| `/pay <player> <amount>` | Send money |
-| `/gems` :material-wrench: | Check your Gem balance |
-| `/shop` | Open the server shop |
-| `/market` :material-wrench: | Browse player markets |
-| `/ah` | Auction house |
-| `/pwarp` | Browse player warps |
+!!! tip "Stack with jobs"
+    Many daily quests overlap with [job](jobs.md) activities. If your quest is "mine 200 stone" and you're a Miner, you complete the quest **and** earn job money **and** level your Mining skill in one go.
 
-## Ranks & progression
+## Daily Login Rewards
 
-| Command | What it does |
-|---------|-------------|
-| `/rankup` | Rank up if you can afford it |
-| `/ranks` | Open the rank menu / see progress |
-| `/jobs` | Jobs menu (join, leave, stats) |
-| `/skills` | Skills menu and your levels |
-| `/quests` :material-wrench: | Daily quests |
-| `/rewards` :material-wrench: | Claim daily login reward |
-| `/battlepass` :material-wrench: | Battle pass menu |
+Just logging in pays off. TownifyMC has a **login reward** system with an escalating streak — the more consecutive days you log in, the better the rewards get.
 
-## Towny — town
+```
+/rewards        # claim your daily login reward :material-wrench:
+/daily          # alternative command :material-wrench:
+```
 
-| Command | What it does |
-|---------|-------------|
-| `/town` | Your town's info panel |
-| `/town new <name>` | Found a town (needs Countryman #5) |
-| `/town claim` | Claim the current chunk |
-| `/town unclaim` | Unclaim the current chunk |
-| `/town add <player>` | Invite a player |
-| `/town set spawn` | Set town spawn |
-| `/town spawn` | Teleport to town spawn |
-| `/town deposit <amount>` | Fund the town bank |
-| `/town set taxes <amount>` | Set resident taxes |
-| `/town set perm` | Permission menu |
-| `/town toggle pvp` | Toggle PvP in town |
-| `/plot forsale <price>` | Put a plot up for sale |
-| `/plot set perm` | Per-plot permissions |
+**Keep your streak alive** — missing a day can reset your progress back toward the smaller rewards, so it pays to pop in daily even if only for a minute.
 
-## Towny — nation
+## Battle Pass
 
-| Command | What it does |
-|---------|-------------|
-| `/nation` | Your nation's info panel |
-| `/nation new <name>` | Found a nation (needs Warrior #10) |
-| `/nation add <town>` | Invite a town |
-| `/nation ally add <nation>` | Propose an alliance |
-| `/nation enemy add <nation>` | Declare an enemy |
-| `/nation spawn` | Teleport to nation capital |
-| `/nation deposit <amount>` | Fund the nation bank |
+TownifyMC runs a **seasonal Battle Pass** with two tracks:
 
-## Storage
+| Track | Cost | What you get |
+|-------|------|--------------|
+| **Free** | Free for everyone | A solid set of rewards as you tier up |
+| **Premium** | Purchase/unlock :material-wrench: | Everything in Free **plus** an upgraded reward at most tiers |
 
-| Command | What it does | Unlocks at |
-|---------|-------------|-----------|
-| `/pv <number>` | Open a player vault | Landlord (#11)+ |
-| `/enderchest` · `/ec` | Open your enderchest | Landlord (#11) |
-| `/backpack` :material-wrench: | Open your backpack | Patriarch (#12)+ |
-| `/dispose` | Trash GUI | Patriarch (#12) |
-| `/condense` | Condense items to blocks | Mercenary (#6) |
+```
+/battlepass     # open the battle pass menu :material-wrench:
+/bp             # shortcut :material-wrench:
+```
 
-## Rewards
+### How it works
 
-| Command | What it does |
-|---------|-------------|
-| `/vote` | Vote links & your points |
-| `/vote shop` | Spend Vote Points |
-| `/vote top` | Top voters leaderboard |
-| `/crates` :material-wrench: | View crates & keys |
-| `/key` :material-wrench: | Check your key balance |
+- You earn **Battle Pass XP** by completing **missions** and playing during the season.
+- XP fills tiers; each tier you reach hands out rewards on whichever track(s) you have.
+- Seasons **rotate** — when one ends, a new set of tiers and rewards begins, so there's always a fresh climb.
+- There's also a **Battle Pass shop** where you can spend currency earned through the pass.
 
-## Cosmetics & social
+!!! info "Free track is genuinely worth it"
+    Even without premium, the free track rewards you just for completing missions and playing through the season. Premium upgrades the payouts, but no one's locked out of progression.
 
-| Command | What it does |
-|---------|-------------|
-| `/cosmetics` · `/cc` :material-wrench: | Cosmetics menu |
-| `/pets` :material-wrench: | Pets menu |
-| `/marry <player>` | Propose marriage |
-| `/disguise` · `/d` :material-wrench: | Disguise yourself |
-| `/nick` | Set a nickname (Noble #14) |
+## Putting it together
 
-## Workstation commands (rank-unlocked)
+A good daily routine on TownifyMC:
 
-These open portable versions of crafting stations, unlocked along the [rank ladder](../progression/ranks.md):
+1. **Log in** → claim your [daily reward](#daily-login-rewards).
+2. **[Vote](../rewards/voting.md)** → points, money, and crate keys.
+3. **Check [daily quests](#daily-quests)** → see what today's objectives are.
+4. **Play your [job](jobs.md)** in a way that knocks out quests and battle-pass missions at the same time.
+5. **Crack any [crate keys](../rewards/crates.md)** you earned.
 
-| Command | Station | Unlocks at |
-|---------|---------|-----------|
-| `/craft` | Crafting table | Commoner (#2) |
-| `/stonecutter` | Stonecutter | Citizen (#3) |
-| `/loom` | Loom | Servant (#4) |
-| `/grindstone` | Grindstone | Mercenary (#6) |
-| `/cartographytable` | Cartography table | Merchant (#7) |
-| `/smithingtable` | Smithing table | Constable (#8) |
-| `/anvil` | Anvil | Artisan (#9) |
+Do that and you're progressing on five systems at once — rank, jobs, skills, quests, and the battle pass — from a single play session.
 
 ---
 
-!!! note "This list isn't exhaustive"
-    TownifyMC runs 100+ plugins, so there are more commands than listed here. This covers what most players need day to day. Explore the in-game menus and `/help` for the rest.
+**Related:** [Voting](../rewards/voting.md) · [Crates](../rewards/crates.md)

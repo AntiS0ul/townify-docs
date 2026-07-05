@@ -1,65 +1,63 @@
-/* ===========================================================
-   TownifyMC Guide — custom theming
-   Layered on top of Material's amber palette.
-   =========================================================== */
+# Towns & Nations
 
-:root {
-  --md-primary-fg-color:        #d4a017;
-  --md-primary-fg-color--light: #e6b800;
-  --md-primary-fg-color--dark:  #a87b0a;
-  --md-accent-fg-color:         #e8851a;
-}
+Towny is the heart of TownifyMC. It's how you **claim and protect land**, build with friends, and project power across the map. This is where a survival server becomes a world of rival settlements.
 
-/* Slightly warmer dark slate so it reads as "evening survival server" */
-[data-md-color-scheme="slate"] {
-  --md-default-bg-color: hsl(232, 15%, 12%);
-  --md-code-bg-color:    hsl(232, 15%, 16%);
-}
+<div class="grid cards" markdown>
 
-/* Tighten the hero headings a touch */
-.md-typeset h1 {
-  font-weight: 700;
-  letter-spacing: -0.01em;
-}
+-   :material-home-city: **[Creating a Town](towns.md)**
 
-/* Rank ladder & price tables: make them feel like a game UI */
-.md-typeset table:not([class]) {
-  font-size: 0.78rem;
-}
-.md-typeset table:not([class]) th {
-  background-color: var(--md-primary-fg-color--dark);
-  color: #fff;
-}
+    ---
 
-/* Currency / cost chips you can drop inline with {.chip} on a span */
-.chip {
-  display: inline-block;
-  padding: 0.05em 0.5em;
-  border-radius: 0.6em;
-  font-weight: 600;
-  font-size: 0.85em;
-  line-height: 1.5;
-  white-space: nowrap;
-}
-.chip.money  { background: rgba(76, 175, 80, 0.18);  color: #4caf50; }
-.chip.gems   { background: rgba(156, 39, 176, 0.18); color: #ce93d8; }
-.chip.points { background: rgba(33, 150, 243, 0.18); color: #64b5f6; }
+    Found a town, claim land, invite residents, set taxes, and protect your builds.
 
-/* Make the "grid cards" on landing pages a little punchier */
-.md-typeset .grid.cards > ul > li {
-  border-radius: 0.6rem;
-  transition: border-color 200ms, box-shadow 200ms;
-}
-.md-typeset .grid.cards > ul > li:hover {
-  border-color: var(--md-accent-fg-color);
-  box-shadow: 0 0 0 1px var(--md-accent-fg-color);
-}
+-   :material-flag-variant: **[Nations](nations.md)**
 
-/* Rank tier color hints for the ladder page (matches in-game tag colors) */
-.tier-common    { color: #bdbdbd; font-weight: 600; }
-.tier-uncommon  { color: #66bb6a; font-weight: 600; }
-.tier-rare      { color: #4dd0e1; font-weight: 600; }
-.tier-epic      { color: #5c6bc0; font-weight: 600; }
-.tier-legendary { color: #ba68c8; font-weight: 600; }
-.tier-royal     { color: #ffb300; font-weight: 600; }
-.tier-celestial { color: #ffee58; font-weight: 700; }
+    ---
+
+    Unite multiple towns under one banner. Alliances, enemies, and shared identity.
+
+-   :material-castle: **[Sieges & War](war.md)**
+
+    ---
+
+    The official way to wage war — capture enemy towns through the Siege War system.
+
+</div>
+
+## The big picture
+
+```mermaid
+graph TD
+    P[Player] -->|joins| T[Town]
+    P -->|or founds own town at Countryman| T
+    T -->|claims| L[Land / Townblocks]
+    T -->|joins or founds| N[Nation]
+    N -->|allies & enemies| N2[Other Nations]
+    N2 -->|Siege War| W[War]
+```
+
+- A **town** is owned land where you and your residents are protected from griefing.
+- Multiple towns can join a **nation** for a shared identity, diplomacy, and strength.
+- Nations interact through **diplomacy and war**, including the [Siege War](war.md) system.
+
+## Two ways to play Towny
+
+You don't *have* to found your own town:
+
+=== "Join an existing town"
+
+    **The easy mode for new players.** Find a town that's recruiting (ask in [Discord](https://discord.gg/townifymc) or browse the [live map](https://map.townifymc.xyz)), and join it. You get:
+
+    - Instant protected land to build on
+    - No upfront town/claim costs
+    - A ready-made community
+
+    Use `/town join <town>` (if open) or ask the mayor for an invite.
+
+=== "Found your own town"
+
+    **For the ambitious.** You'll need to reach **Countryman (#5)** to unlock town creation, then pay the town cost. You get full control — but also the responsibility of funding and growing it. See [Creating a Town](towns.md).
+
+---
+
+**Start here:** [Creating a Town →](towns.md)

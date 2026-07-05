@@ -1,74 +1,125 @@
-# Nations
+# Command Reference
 
-Once your town is established, the next step is joining or founding a **nation** — a union of towns under a single banner. Nations are where the server's politics, alliances, and large-scale conflicts play out.
+A grouped list of the commands you'll actually use on TownifyMC. Commands marked :material-wrench: depend on your exact server setup — confirm them in-game.
 
-## Unlocking nations
+!!! tip "Forgot a command?"
+    In-game, `/help` lists commands, and most systems have a menu command (like `/jobs`, `/town`, `/vote`) that you can navigate with clicks instead of memorizing syntax.
 
-Creating a nation unlocks at **Warrior (rank #10)** — <span class="chip money">$500,000</span> in total rank progression. Founding the nation also has a Towny cost paid from your town bank.
+## Essentials & general
 
-!!! tip
-    You don't need to *found* a nation to be part of one. Any town can be **invited into** an existing nation — often a faster route to the benefits of nationhood.
+| Command | What it does |
+|---------|-------------|
+| `/spawn` | Teleport to server spawn |
+| `/help` | Built-in command help |
+| `/rules` | View the server rules |
+| `/tpa <player>` | Request to teleport to a player |
+| `/tpaccept` · `/tpdeny` | Respond to a teleport request |
+| `/home` · `/sethome` | Teleport to / set a home |
+| `/back` | Return to your last location |
+| `/msg <player> <text>` | Private message |
+| `/r <text>` | Reply to last message |
+| `/afk` | Mark yourself away |
+| `/discord` | Get the Discord invite |
 
-## Founding a nation
+## Economy & money
 
-As a **mayor**, with your town as the future capital:
+| Command | What it does |
+|---------|-------------|
+| `/bal` | Check your money balance |
+| `/baltop` | Richest players |
+| `/pay <player> <amount>` | Send money |
+| `/gems` :material-wrench: | Check your Gem balance |
+| `/market` :material-wrench: | Browse player markets |
+| `/ah` | Auction house |
+| `/pwarp` | Browse player warps |
 
-```
-/nation new <name>
-```
+## Ranks & progression
 
-Your town becomes the **capital** and you become the **king/leader**. Other towns can then be invited to join.
+| Command | What it does |
+|---------|-------------|
+| `/rankup` | Rank up if you can afford it |
+| `/ranks` | Open the rank menu / see progress |
+| `/jobs` | Jobs menu (join, leave, stats) |
+| `/skills` | Skills menu and your levels |
+| `/quests` :material-wrench: | Daily quests |
+| `/rewards` :material-wrench: | Claim daily login reward |
+| `/battlepass` :material-wrench: | Battle pass menu |
 
-### Core nation commands
+## Towny — town
 
-```
-/nation                  # view your nation's info panel
-/nation add <town>       # invite a town to your nation
-/nation set capital <town>    # designate the capital
-/nation set spawn        # set the nation spawn
-/nation deposit <amount>      # fund the nation bank
-/nation ally add <nation>     # propose an alliance
-/nation enemy add <nation>    # declare a nation an enemy
-```
+| Command | What it does |
+|---------|-------------|
+| `/town` | Your town's info panel |
+| `/town new <name>` | Found a town (needs Countryman #5) |
+| `/town claim` | Claim the current chunk |
+| `/town unclaim` | Unclaim the current chunk |
+| `/town add <player>` | Invite a player |
+| `/town set spawn` | Set town spawn |
+| `/town spawn` | Teleport to town spawn |
+| `/town deposit <amount>` | Fund the town bank |
+| `/town set taxes <amount>` | Set resident taxes |
+| `/town set perm` | Permission menu |
+| `/town toggle pvp` | Toggle PvP in town |
+| `/plot forsale <price>` | Put a plot up for sale |
+| `/plot set perm` | Per-plot permissions |
 
-## Why join a nation?
+## Towny — nation
 
-| Benefit | What it means |
-|---------|---------------|
-| **Strength in numbers** | Allied towns support each other in [war](war.md) |
-| **Diplomacy** | Form alliances, declare enemies, negotiate |
-| **Shared identity** | A nation tag and shared spawn network |
-| **Bigger bonuses** | Nations can unlock perks scaling with size |
-| **Fast travel** | Cheaper/possible travel between allied and nation spawns |
+| Command | What it does |
+|---------|-------------|
+| `/nation` | Your nation's info panel |
+| `/nation new <name>` | Found a nation (needs Warrior #10) |
+| `/nation add <town>` | Invite a town |
+| `/nation ally add <nation>` | Propose an alliance |
+| `/nation enemy add <nation>` | Declare an enemy |
+| `/nation spawn` | Teleport to nation capital |
+| `/nation deposit <amount>` | Fund the nation bank |
 
-### Spawn travel costs
+## Storage
 
-Travelling to spawns across the nation/alliance network has small fees:
+| Command | What it does | Unlocks at |
+|---------|-------------|-----------|
+| `/pv <number>` | Open a player vault | Landlord (#11)+ |
+| `/enderchest` · `/ec` | Open your enderchest | Landlord (#11) |
+| `/backpack` :material-wrench: | Open your backpack | Patriarch (#12)+ |
+| `/dispose` | Trash GUI | Patriarch (#12) |
+| `/condense` | Condense items to blocks | Mercenary (#6) |
 
-| Travel to… | Cost |
-|------------|------|
-| Your own town spawn | <span class="chip money">Free</span> |
-| A town in your nation | <span class="chip money">$5</span> |
-| An allied town's spawn | <span class="chip money">$10</span> |
-| A public town's spawn | <span class="chip money">$10</span> |
+## Rewards
 
-```
-/town spawn              # your town
-/town spawn <town>       # another town (cost depends on relationship)
-/nation spawn            # your nation's capital spawn
-```
+| Command | What it does |
+|---------|-------------|
+| `/vote` | Vote links & your points |
+| `/vote shop` | Spend Vote Points |
+| `/vote top` | Top voters leaderboard |
+| `/crates` :material-wrench: | View crates & keys |
+| `/key` :material-wrench: | Check your key balance |
 
-## Diplomacy & neutrality
+## Cosmetics & social
 
-Nations choose how they engage with the world:
+| Command | What it does |
+|---------|-------------|
+| `/cosmetics` · `/cc` :material-wrench: | Cosmetics menu |
+| `/pets` :material-wrench: | Pets menu |
+| `/marry <player>` | Propose marriage |
+| `/disguise` · `/d` :material-wrench: | Disguise yourself |
+| `/nick` | Set a nickname (Noble #14) |
 
-- **Allies** fight alongside you and can use each other's spawns cheaply.
-- **Enemies** can be targeted in (and target you with) [Siege War](war.md).
-- **Neutrality** — a nation or town can declare itself neutral to stay out of conflicts, for a fee (town neutrality costs <span class="chip money">$25</span>).
+## Workstation commands (rank-unlocked)
 
-!!! note "Politics is player-driven"
-    Alliances, rivalries, and wars are created by **players**, not staff. Who you ally with and who you fight is up to you — that emergent politics is a big part of what makes a Towny server fun.
+These open portable versions of crafting stations, unlocked along the [rank ladder](../progression/ranks.md):
+
+| Command | Station | Unlocks at |
+|---------|---------|-----------|
+| `/craft` | Crafting table | Commoner (#2) |
+| `/stonecutter` | Stonecutter | Citizen (#3) |
+| `/loom` | Loom | Servant (#4) |
+| `/grindstone` | Grindstone | Mercenary (#6) |
+| `/cartographytable` | Cartography table | Merchant (#7) |
+| `/smithingtable` | Smithing table | Constable (#8) |
+| `/anvil` | Anvil | Artisan (#9) |
 
 ---
 
-**Next:** [Sieges & War →](war.md)
+!!! note "This list isn't exhaustive"
+    TownifyMC runs 100+ plugins, so there are more commands than listed here. This covers what most players need day to day. Explore the in-game menus and `/help` for the rest.

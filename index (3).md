@@ -1,53 +1,86 @@
-# Ranks & Progression
+# Voting
 
-TownifyMC has multiple parallel progression systems. You don't have to engage with all of them, but together they give you plenty to chase.
+Voting is the **best free reward** on TownifyMC. It takes about a minute, you can do it every day, and it pays out money, Vote Points, and crate keys. Supporting the server this way also helps new players find us — everybody wins.
 
-<div class="grid cards" markdown>
+## How to vote
 
--   :material-trophy: **[The Rank Ladder](ranks.md)**
-
-    ---
-
-    27 ranks from Pleb to Celestial, each unlocking new commands and perks. Money-gated, climbed with `/rankup`.
-
--   :material-cash: **[Economy & Currencies](economy.md)**
-
-    ---
-
-    Money, Gems, and Vote Points — what each one is and how to earn it.
-
--   :material-pickaxe: **[Jobs](jobs.md)**
-
-    ---
-
-    12 jobs that pay you for the things you already do. Your main income source.
-
--   :material-sword-cross: **[Skills](skills.md)**
-
-    ---
-
-    RPG-style skills that level up as you play and grant passive bonuses.
-
--   :material-calendar-check: **[Quests & Battle Pass](quests.md)**
-
-    ---
-
-    Daily quests, login rewards, and a seasonal battle pass with free and premium tracks.
-
-</div>
-
-## How it all fits together
-
-```mermaid
-graph LR
-    A[Play the game] --> B[Earn Money via Jobs]
-    A --> C[Level Skills]
-    A --> D[Complete Quests]
-    B --> E[Rankup Ladder]
-    D --> F[Battle Pass XP]
-    E --> G[Unlock perks & commands]
-    F --> G
-    C --> G
+```
+/vote
 ```
 
-The **rank ladder** is the backbone — it's driven by **money**, which mostly comes from **jobs**. Everything else (skills, quests, battle pass, voting) layers extra rewards and progression on top.
+This shows you the **vote links** and your current Vote Points. Click each link, complete the vote (you'll enter your exact in-game username), and the rewards land automatically.
+
+### Vote sites
+
+TownifyMC is listed on these voting sites:
+
+| Site | What it is |
+|------|------------|
+| **PlanetMinecraft.com** | One of the biggest Minecraft community sites |
+| **Crafty.gg** | Popular server listing site |
+| **MCTools.org** | Server listing & tools site |
+
+!!! warning "Staff: add the vote links"
+    The vote-site **URLs aren't filled in yet** in the config :material-wrench:. Add your server's listing links so `/vote` shows clickable links, then update this table.
+
+!!! tip "Vote on all sites, every day"
+    Each site is a separate reward. Vote on **all of them** each day for the full payout. Most sites let you vote again every **24 hours**, so build it into your daily routine.
+
+## What you get for voting
+
+Every vote rewards you instantly. Across the system you can earn:
+
+- **Money** (`$`) — straight into your balance
+- **Vote Points** — spend them in the [vote shop](#the-vote-shop)
+- **Vote Crate keys** — open the [Vote Crate](crates.md) for loot
+
+### The Vote Shop
+
+Spend the Vote Points you accumulate:
+
+```
+/vote shop      # or open it from the /vote menu
+```
+
+The vote shop stocks useful items and perks you can buy with points — a great use for all those points piling up from daily voting.
+
+## Bonus reward systems
+
+TownifyMC's voting does more than per-vote rewards. Watch for these:
+
+=== "Vote Party"
+
+    When the **whole server** hits a combined vote goal, a **Vote Party** triggers — and *everyone online* gets a reward. The more the community votes, the more often parties fire. So encourage your town and friends to vote too!
+
+=== "Vote Streaks"
+
+    Vote on **consecutive days** to build a **streak**. The longer your streak, the better your rewards get — so don't break the chain. Missing a day can cost you your streak bonus.
+
+=== "Milestones"
+
+    Hit **cumulative vote totals** (your lifetime vote count) to unlock one-time **milestone rewards**. These reward long-term, loyal voters.
+
+=== "Top Voter"
+
+    The server tracks **top voters** over time. Finishing near the top of the leaderboard can earn special **Top Voter rewards** — a friendly competition with real prizes.
+
+```
+/vote top       # see the top voters leaderboard
+```
+
+## Why it's worth it
+
+| Reward | Per vote | Bonus systems |
+|--------|:--------:|:-------------:|
+| Money | ✅ | Vote Party |
+| Vote Points | ✅ | — |
+| Crate keys | ✅ | — |
+| Streak bonuses | — | ✅ |
+| Milestone rewards | — | ✅ |
+| Top Voter prizes | — | ✅ |
+
+For ~60 seconds a day you get money, points, keys, **and** progress toward streaks, milestones, parties, and the top-voter board. It's the highest-value minute you'll spend on the server.
+
+---
+
+**Next:** [Crates →](crates.md)

@@ -1,84 +1,59 @@
-# Storage & Backpacks
+# Jobs
 
-Inventory space is always at a premium in Minecraft. TownifyMC gives you several ways to expand it — most of which **scale with your [rank](../progression/ranks.md)**.
+Jobs are your **primary source of income** on TownifyMC. You get paid for actions you're already doing — mining, farming, fighting, building — so joining the right jobs turns normal play into steady money.
 
-## Player Vaults (`/pv`)
-
-Player Vaults are **personal stored inventories** you can access from anywhere — like having extra enderchests. You unlock more vaults as you rank up.
+## How jobs work
 
 ```
-/pv 1           # open vault #1
-/pv <number>    # open a specific vault
+/jobs           # open the jobs menu
+/jobs join <job>    # join a job
+/jobs leave <job>   # leave a job
+/jobs stats     # see your levels and earnings
+/jobs browse    # browse all jobs and their pay
 ```
 
-### Vaults by rank
+- You earn **money** (and job XP) each time you perform an action your job rewards.
+- As you **level up** a job, your payouts and bonuses increase.
+- You can only hold a limited number of jobs at once — your **job slots** increase as you rank up.
 
-| Vaults | Unlocked at | Rank |
-|:------:|-------------|------|
-| `/pv 1` | <span class="chip money">$1,000,000</span> | <span class="tier-rare">Landlord</span> (#11) |
-| `/pv 1–2` | <span class="chip money">$3,500,000</span> | <span class="tier-rare">Elder</span> (#13) |
-| `/pv 1–3` | <span class="chip money">$15,000,000</span> | <span class="tier-epic">Knight</span> (#17) |
-| `/pv 1–4` | <span class="chip money">$33,000,000</span> | <span class="tier-epic">Count</span> (#20) |
-| `/pv 1–5` | <span class="chip money">$67,000,000</span> | <span class="tier-legendary">Duke</span> (#23) |
-| `/pv 1–6` | <span class="chip money">$160,000,000</span> | <span class="tier-celestial">Celestial</span> (#27) |
+### Job slots by rank
 
-So your storage grows right alongside your wealth — by the endgame you've got **six full vaults** of overflow space.
+| Slots | Unlocked at | Rank |
+|------:|-------------|------|
+| 1 | Start | <span class="tier-common">Pleb</span> |
+| 2 | <span class="chip money">$60,000</span> | <span class="tier-uncommon">Merchant</span> (#7) |
+| 3 | <span class="chip money">$67,000,000</span> | <span class="tier-legendary">Duke</span> (#23) |
 
-## Backpacks
+So early on you'll commit to **one** job, pick up a **second** in the mid-game, and run a **third** deep into the endgame.
 
-Backpacks are **portable storage** you carry with you — open them anywhere without running to a chest. They come in **three tiers**, each bigger than the last.
+## The 12 jobs
 
-| Backpack | Unlocked at | Rank |
-|----------|-------------|------|
-| **Tier 1** | <span class="chip money">$2,000,000</span> | <span class="tier-rare">Patriarch</span> (#12) |
-| **Tier 2** | <span class="chip money">$33,000,000</span> | <span class="tier-epic">Count</span> (#20) |
-| **Tier 3** | <span class="chip money">$67,000,000</span> | <span class="tier-legendary">Duke</span> (#23) |
+Choose jobs that match how you like to play. Here's what each one rewards:
 
-```
-/backpack       # open your backpack :material-wrench:
-/bp open        # alternative :material-wrench:
-```
+| Job | You get paid for… | Good if you like… |
+|-----|-------------------|-------------------|
+| :material-pickaxe: **Miner** | Mining ores and stone | Caving, branch mining, gathering |
+| :material-sprout: **Farmer** | Harvesting crops | Farms, automation, passive setups |
+| :material-axe: **Lumberjack** | Chopping trees | Wood gathering, tree farms |
+| :material-cow: **Rancher** | Breeding and raising animals | Animal farms, food production |
+| :material-shovel: **Excavator** | Digging dirt, sand, gravel | Terraforming, big digs |
+| :material-hammer-wrench: **Builder** | Placing blocks / building | Construction, town projects |
+| :material-bow-arrow: **Hunter** | Killing hostile mobs | Combat, mob grinding |
+| :material-fish: **Fisher** | Catching fish | Relaxed play, [fishing comps](../money/fishing.md) |
+| :material-anvil: **Blacksmith** | Smelting and crafting | Processing raw materials |
+| :material-chef-hat: **Cook** | Cooking food | Food economy, brewing-adjacent play |
+| :material-compass: **Explorer** | Discovering and traveling | Roaming, mapping the world |
+| :material-auto-fix: **Arcanist** | Enchanting and magical actions | Enchanting, the "wizard" playstyle |
 
-!!! tip "Backpacks vs. Vaults"
-    - **Backpacks** travel *with you* — perfect for mining trips and long expeditions where you fill up fast.
-    - **Vaults** are *stored* and accessed on demand — better for long-term overflow you don't carry around.
+!!! tip "Picking your first job"
+    If you're not sure, **Miner**, **Lumberjack**, or **Farmer** are reliable openers — they pay out constantly from basic resource gathering, and they stock you up on materials you'll need anyway.
 
-    Use both: dump expedition loot into your backpack in the field, then offload into vaults back home.
+## Maximizing job income
 
-## Enderchest
-
-Your vanilla enderchest gets a command unlock at **Landlord (#11)**, so you can open it anywhere:
-
-```
-/enderchest     # or /ec
-```
-
-## Player Warps
-
-Not storage exactly, but worth mentioning here — **player warps** let you set public teleport points (great for your shop). The number you can own scales with rank:
-
-| Warps | Unlocked at | Rank |
-|:-----:|-------------|------|
-| 1 | <span class="chip money">$33,000,000</span> | <span class="tier-epic">Count</span> (#20) |
-| 2 | <span class="chip money">$42,000,000</span> | <span class="tier-legendary">Jarl</span> (#21) |
-| 5 | <span class="chip money">$105,000,000</span> | <span class="tier-royal">Royal</span> (#25) |
-
-```
-/pwarp          # browse all player warps
-/pwarp set <name>    # create one of your warps :material-wrench:
-```
-
-See [Shops & Markets](../money/shops.md#get-more-foot-traffic-with-player-warps) for using warps to drive shop traffic.
-
-## Quality-of-life storage commands
-
-A few rank-unlocked helpers for managing items:
-
-| Command | Does | Unlocks at |
-|---------|------|-----------|
-| `/dispose` | Open a trash GUI to delete junk | <span class="tier-rare">Patriarch</span> (#12) |
-| `/condense` | Condense materials into blocks | <span class="tier-uncommon">Mercenary</span> (#6) |
+- **Stack synergistic jobs.** Once you have 2–3 slots, combine jobs that share activities. Example: a cave run can pay **Miner** (ores) *and* **Hunter** (mobs you fight on the way) at the same time.
+- **Level up before chasing new jobs.** A high-level job often out-earns a fresh one, because payouts scale with job level.
+- **Watch for boosts.** The server may run job-payout boost events — check `/jobs` and [Discord](https://discord.gg/townifymc). Working during a boost is the most efficient time to grind.
 
 ---
 
-**Next:** [Cosmetics & Pets →](cosmetics.md)
+**Related:** [Economy](economy.md) · [Skills](skills.md) · [Making Money](../money/making-money.md)
