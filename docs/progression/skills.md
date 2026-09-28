@@ -8,7 +8,7 @@ You don't "join" skills like you do jobs — they level up automatically through
 
 ```
 /skills         # open the skills menu and see your levels
-/stats          # view your stats (health, strength, etc.) :material-wrench:
+/stats          # view your stats (health, strength, etc.)
 ```
 
 Each skill level grants a small permanent bonus, and many skills unlock **abilities** and **mana abilities** as they level — active or passive perks tied to that skill.

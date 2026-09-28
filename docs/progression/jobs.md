@@ -10,6 +10,7 @@ Jobs are your **primary source of income** on TownifyMC. You get paid for action
 /jobs leave <job>   # leave a job
 /jobs stats     # see your levels and earnings
 /jobs browse    # browse all jobs and their pay
+/jobearnings    # money earned today, last hour, this session, and $/hour
 ```
 
 - You earn **money** (and job XP) each time you perform an action your job rewards.
@@ -52,7 +53,8 @@ Choose jobs that match how you like to play. Here's what each one rewards:
 
 - **Stack synergistic jobs.** Once you have 2–3 slots, combine jobs that share activities. Example: a cave run can pay **Miner** (ores) *and* **Hunter** (mobs you fight on the way) at the same time.
 - **Level up before chasing new jobs.** A high-level job often out-earns a fresh one, because payouts scale with job level.
-- **Watch for boosts.** The server may run job-payout boost events — check `/jobs` and [Discord](https://discord.gg/townifymc). Working during a boost is the most efficient time to grind.
+- **Watch for boosts.** Any player can start a **server-wide 25% job boost** (money or XP) for 60 minutes by right-clicking a **Boost Token** from the [Gem Store](../perks/store.md#job-boost-tokens). Boosts are announced in chat and [Discord](https://discord.gg/townify), and extra tokens stack more time. Working during a boost is the most efficient time to grind.
+- **Measure it.** `/jobearnings` shows your average **$/hour** for the session, so you can tell which job or route actually pays best.
 
 ---
 

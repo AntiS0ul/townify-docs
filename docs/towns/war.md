@@ -42,7 +42,7 @@ If your town is besieged:
 
 - **Rally your residents and allies** — defense is a numbers game.
 - Hold the area around the **siege banner**; control of that point decides the outcome.
-- Coordinate in voice/[Discord](https://discord.gg/townifymc) — organized defenders beat disorganized attackers.
+- Coordinate in voice/[Discord](https://discord.gg/townify) — organized defenders beat disorganized attackers.
 
 !!! tip "Strength in alliances"
     This is *why* [nations and alliances](nations.md) matter. A lone town is vulnerable; a well-allied nation can call in reinforcements when the banners go up.

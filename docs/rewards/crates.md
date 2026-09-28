@@ -5,13 +5,14 @@ Crates are TownifyMC's loot boxes — open them with **keys** for a chance at mo
 ## How crates work
 
 1. **Get a key** — from [voting](voting.md), events, the store, rewards, or as drops.
-2. **Go to the crate area** — crates are physical at a designated location (usually near spawn).
-3. **Open it** — right-click the crate with the matching key (or use the preview to see what's inside first).
+2. **Go to the crate area** at `/warp crates`.
+3. **Open it** — hold the matching key and right-click the crate (or use the preview to see what's inside first).
 
 ```
-/crates         # view crates and your keys :material-wrench:
-/key            # check your key balance :material-wrench:
+/warp crates    # go to the crates
 ```
+
+Keys are **physical items** in your inventory, so keep them somewhere safe (a vault or ender chest).
 
 !!! tip "Preview before you open"
     Most crates let you **preview** the full loot table and the odds. Take a look so you know what you're rolling for — and which crates are worth chasing keys for.
@@ -45,7 +46,7 @@ Crates are TownifyMC's loot boxes — open them with **keys** for a chance at mo
 | [Daily voting](voting.md) | Vote Crate keys |
 | Events & competitions | Various, often higher-tier |
 | [Daily rewards / streaks](../progression/quests.md) | Occasional keys |
-| Server store | Premium crate keys :material-wrench: |
+| [Gem Store](../perks/store.md) (`/servershop`) | Crate keys, bought with Gems |
 | [Battle Pass](../progression/quests.md) | Keys as tier rewards |
 
 The most consistent **free** key source is [voting](voting.md) — vote every day and you'll always have Vote Crate keys to open.

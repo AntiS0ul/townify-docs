@@ -8,10 +8,13 @@ When you join, you'll start at **spawn** as a **Pleb** (the starting rank). Take
 
 Handy commands to know right away:
 
+- `/menu` — opens the main server menu (almost everything is in here)
 - `/spawn` — teleport back to spawn anytime
 - `/rules` — read the server rules (do this!)
-- `/help` — built-in command help
-- `/menu` or `/cmenu` — opens the main server menu (if available) :material-wrench:
+- `/kit` — grab the free **Starter Kit** (refills every hour)
+- `/warp` — the travel menu
+
+The [Useful Commands & Shortcuts](../reference/shortcuts.md) page has the full cheat sheet.
 
 ## 2. Join a job
 
@@ -35,6 +38,8 @@ Check your balance any time:
 ```
 /bal
 ```
+
+Gather in the **Resource World** (`/rw`) so you don't scar the main map. It resets monthly, so don't build there.
 
 You can also sell the items you gather to other players on the **[player markets](../money/shops.md)** — TownifyMC's economy is player-run, so other players are your buyers:
 
@@ -76,17 +81,18 @@ Reaching **Countryman** is the first big milestone — it lets you found your ow
 
 Minecraft is more fun with others:
 
-- Join the [Discord](https://discord.gg/townifymc) for announcements, help, and to find a town to join.
-- Use `/towny` and look at the [live map](https://map.townifymc.xyz) to find existing towns recruiting members. **Joining an established town** is often the fastest way to get set up — you skip the upfront cost of founding your own.
+- Join the [Discord](https://discord.gg/townify) for announcements, help, and to find a town to join.
+- Use `/towny` and look at the [live map](https://map.townifymc.xyz) (`/map`) to find existing towns recruiting members. `/rtp <continent>` gets you to a region quickly. **Joining an established town** is often the fastest way to get set up — you skip the upfront cost of founding your own.
 
 ## First-hour checklist
 
 - [ ] Read `/rules`
+- [ ] Claimed the Starter Kit (`/kit`)
 - [ ] Joined a job via `/jobs`
 - [ ] Earned my first money (`/bal`)
 - [ ] Ranked up to Commoner (`/rankup`)
 - [ ] Voted for the server (free rewards! — see [Voting](../rewards/voting.md))
-- [ ] Joined the [Discord](https://discord.gg/townifymc)
+- [ ] Joined the [Discord](https://discord.gg/townify)
 
 ---
 

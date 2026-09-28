@@ -1,37 +1,48 @@
 # Command Reference
 
-A grouped list of the commands you'll actually use on TownifyMC. Commands marked :material-wrench: depend on your exact server setup — confirm them in-game.
+A grouped list of the commands you'll actually use on TownifyMC.
 
-!!! tip "Forgot a command?"
-    In-game, `/help` lists commands, and most systems have a menu command (like `/jobs`, `/town`, `/vote`) that you can navigate with clicks instead of memorizing syntax.
+!!! tip "Looking for shortcuts?"
+    [Useful Commands & Shortcuts](shortcuts.md) covers the short aliases, one-click menus, toggles, and in-game controls. In game, `/menu` opens the main menu, where you can reach most systems by clicking.
 
 ## Essentials & general
 
 | Command | What it does |
 |---------|-------------|
+| `/menu` | Main server menu |
 | `/spawn` | Teleport to server spawn |
-| `/help` | Built-in command help |
+| `/wiki` · `/docs` | Link to this guide |
 | `/rules` | View the server rules |
 | `/tpa <player>` | Request to teleport to a player |
 | `/tpaccept` · `/tpdeny` | Respond to a teleport request |
 | `/home` · `/sethome` | Teleport to / set a home |
+| `/upgrades` | Buy more homes & player-warp slots |
+| `/kit` | Kits menu |
 | `/back` | Return to your last location |
 | `/msg <player> <text>` | Private message |
 | `/r <text>` | Reply to last message |
 | `/afk` | Mark yourself away |
-| `/discord` | Get the Discord invite |
+| `/discord` · `/dc` | Get the Discord invite |
+| `/map` | Link to the live map |
+| `/store` | Link to the online store |
+| `/poses` · `/sit` · `/lay` · `/crawl` | Poses |
 
 ## Economy & money
 
 | Command | What it does |
 |---------|-------------|
-| `/bal` | Check your money balance |
+| `/bal` | Check your Money **and** Gems |
 | `/baltop` | Richest players |
 | `/pay <player> <amount>` | Send money |
-| `/gems` :material-wrench: | Check your Gem balance |
-| `/market` :material-wrench: | Browse player markets |
+| `/servershop` | Gem Store |
+| `/market` · `/tm` | Browse player chest shops |
+| `/market myshops` | Manage your shops & collect sales |
+| `/market claim` · `/market offers` | Collect order items · view counter-offers |
 | `/ah` | Auction house |
 | `/pwarp` | Browse player warps |
+| `/jobearnings` | Your job income stats |
+| `/lotto` | Open the lottery |
+| `/bounty` | Bounty board |
 
 ## Ranks & progression
 
@@ -41,9 +52,24 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 | `/ranks` | Open the rank menu / see progress |
 | `/jobs` | Jobs menu (join, leave, stats) |
 | `/skills` | Skills menu and your levels |
-| `/quests` :material-wrench: | Daily quests |
-| `/rewards` :material-wrench: | Claim daily login reward |
-| `/battlepass` :material-wrench: | Battle pass menu |
+| `/quests` | Daily quests |
+| `/rewards` | Claim daily login reward |
+| `/battlepass` | Battle pass menu |
+
+## Travel & worlds
+
+| Command | What it does |
+|---------|-------------|
+| `/warp` | Travel menu |
+| `/warp <name>` | Go to a warp (`market`, `crates`, `dungeons`, `pvp`, `pinataparty`, …) |
+| `/rtp` · `/wild` | Random teleport |
+| `/rtp <continent>` | Random teleport on a continent (30s cooldown) |
+| `/rw` · `/nrw` | Resource World · Resource Nether |
+| `/roads` · `/roadtier` · `/roadspeed` | Road guide · current road · toggle boost |
+| `/canfly` · `/cf` | Can you fly here? |
+| `/graves` | Your graves |
+| `/tprequest <player>` | Teleport request using a Teleport Request Token |
+| `/tokenaccept` · `/tokendeny` | Answer a token teleport request |
 
 ## Towny — town
 
@@ -81,29 +107,40 @@ A grouped list of the commands you'll actually use on TownifyMC. Commands marked
 |---------|-------------|-----------|
 | `/pv <number>` | Open a player vault | Landlord (#11)+ |
 | `/enderchest` · `/ec` | Open your enderchest | Landlord (#11) |
-| `/backpack` :material-wrench: | Open your backpack | Patriarch (#12)+ |
 | `/dispose` | Trash GUI | Patriarch (#12) |
 | `/condense` | Condense items to blocks | Mercenary (#6) |
+| `/bulkcraft` | List bulk-crafting commands | Cyclops donor rank |
 
 ## Rewards
 
 | Command | What it does |
 |---------|-------------|
-| `/vote` | Vote links & your points |
-| `/vote shop` | Spend Vote Points |
+| `/vote` | Vote links |
 | `/vote top` | Top voters leaderboard |
-| `/crates` :material-wrench: | View crates & keys |
-| `/key` :material-wrench: | Check your key balance |
+| `/warp crates` | Go to the crates (keys are physical items) |
+| `/afkkey` | Time until the next AFK Pool Vote Key |
+| `/lotto` | Lottery |
+| `/referralcode` · `/referralredeem <code>` · `/referralstatus` | Referral program |
 
 ## Cosmetics & social
 
 | Command | What it does |
 |---------|-------------|
-| `/cosmetics` · `/cc` :material-wrench: | Cosmetics menu |
-| `/pets` :material-wrench: | Pets menu |
+| `/uc menu` | Cosmetics & pets menu |
 | `/marry <player>` | Propose marriage |
-| `/disguise` · `/d` :material-wrench: | Disguise yourself |
 | `/nick` | Set a nickname (Noble #14) |
+| `/glow [color]` | Glowing outline (Banshee donor rank) |
+| `[item]` · `[i]` *(in chat)* | Show your held item in chat |
+
+## Adventure
+
+| Command | What it does |
+|---------|-------------|
+| `/warp dungeons` | Dungeon hub |
+| `/dungeonkeyshop` | Buy dungeon keys |
+| `/warp pvp` | PvP Arena |
+| `/ce` | Custom enchantments menu |
+| `/fishing` · `/fsell` · `/fishwins` | Fishing hub · sell all fish · your comp wins |
 
 ## Workstation commands (rank-unlocked)
 
@@ -111,8 +148,8 @@ These open portable versions of crafting stations, unlocked along the [rank ladd
 
 | Command | Station | Unlocks at |
 |---------|---------|-----------|
-| `/craft` | Crafting table | Commoner (#2) |
-| `/stonecutter` | Stonecutter | Citizen (#3) |
+| `/craft` · `/wb` | Crafting table | Commoner (#2) |
+| `/stonecutter` · `/stc` | Stonecutter | Citizen (#3) |
 | `/loom` | Loom | Servant (#4) |
 | `/grindstone` | Grindstone | Mercenary (#6) |
 | `/cartographytable` | Cartography table | Merchant (#7) |

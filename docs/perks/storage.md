@@ -22,7 +22,7 @@ Player Vaults are **personal stored inventories** you can access from anywhere �
 | `/pv 1–5` | <span class="chip money">$67,000,000</span> | <span class="tier-legendary">Duke</span> (#23) |
 | `/pv 1–6` | <span class="chip money">$160,000,000</span> | <span class="tier-celestial">Celestial</span> (#27) |
 
-So your storage grows right alongside your wealth — by the endgame you've got **six full vaults** of overflow space.
+So your storage grows right alongside your wealth — by the endgame you've got **six full vaults** of overflow space. Lifetime donor ranks from the [Gem Store](store.md#lifetime-donor-ranks) raise this to as many as **10 vaults**.
 
 ## Backpacks
 
@@ -34,16 +34,49 @@ Backpacks are **portable storage** you carry with you — open them anywhere wit
 | **Tier 2** | <span class="chip money">$33,000,000</span> | <span class="tier-epic">Count</span> (#20) |
 | **Tier 3** | <span class="chip money">$67,000,000</span> | <span class="tier-legendary">Duke</span> (#23) |
 
-```
-/backpack       # open your backpack :material-wrench:
-/bp open        # alternative :material-wrench:
-```
+Backpacks are **physical items**: hold one and **right-click** to open it.
 
 !!! tip "Backpacks vs. Vaults"
     - **Backpacks** travel *with you* — perfect for mining trips and long expeditions where you fill up fast.
     - **Vaults** are *stored* and accessed on demand — better for long-term overflow you don't carry around.
 
     Use both: dump expedition loot into your backpack in the field, then offload into vaults back home.
+
+## Void Storage
+
+A **Void Storage** item holds **thousands of one item type** in a single inventory slot. It's handy for builders hauling huge amounts of one block.
+
+**Create one:** open your inventory, pick up a **Void Crystal** on your cursor, hover over a block or stackable item, and **right-click**. The crystal and the item combine into a Void Storage for that item.
+
+Capacity is rolled when you create it:
+
+| Rarity | Chance | Holds |
+|--------|:------:|------:|
+| Common | 55% | 1,000 |
+| Uncommon | 25% | 2,500 |
+| Rare | 12% | 5,000 |
+| Epic | 6% | 10,000 |
+| Legendary | 2% | 20,000 |
+
+**Using it:**
+
+| Action | How |
+|--------|-----|
+| Deposit a stack | Pick up matching items and **right-click** the Void Storage |
+| Deposit everything matching | **Shift + Left-click** the Void Storage |
+| Withdraw one stack | Empty cursor, **right-click** the Void Storage |
+| Withdraw as much as fits | Empty cursor, **Shift + Right-click** the Void Storage |
+| Build straight from it | Hold a block-type Void Storage and **right-click** to place. It stays in your hand and the count goes down |
+
+## Homes
+
+You start with **1 home**. Buy more from the `/upgrades` menu: up to 10 with money, and 20–25 with Gems. See [Gem Store & Upgrades](store.md#homes).
+
+```
+/sethome <name>     # set a home
+/home <name>        # go to it
+/upgrades           # buy more home slots
+```
 
 ## Enderchest
 
@@ -55,7 +88,7 @@ Your vanilla enderchest gets a command unlock at **Landlord (#11)**, so you can 
 
 ## Player Warps
 
-Not storage exactly, but worth mentioning here — **player warps** let you set public teleport points (great for your shop). The number you can own scales with rank:
+Not storage exactly, but worth mentioning here — **player warps** let you set public teleport points (great for your shop). You can buy slots with money from `/upgrades` ([prices](store.md#player-warp-slots)), and ranks also grant them:
 
 | Warps | Unlocked at | Rank |
 |:-----:|-------------|------|
@@ -65,7 +98,7 @@ Not storage exactly, but worth mentioning here — **player warps** let you set 
 
 ```
 /pwarp          # browse all player warps
-/pwarp set <name>    # create one of your warps :material-wrench:
+/pwarp create <name>    # create one of your warps
 ```
 
 See [Shops & Markets](../money/shops.md#get-more-foot-traffic-with-player-warps) for using warps to drive shop traffic.
@@ -77,7 +110,8 @@ A few rank-unlocked helpers for managing items:
 | Command | Does | Unlocks at |
 |---------|------|-----------|
 | `/dispose` | Open a trash GUI to delete junk | <span class="tier-rare">Patriarch</span> (#12) |
-| `/condense` | Condense materials into blocks | <span class="tier-uncommon">Mercenary</span> (#6) |
+| `/condense` | Condense materials into blocks (charcoal too) | <span class="tier-uncommon">Mercenary</span> (#6) |
+| `/bulkcraft` | Bulk-craft whole inventories into blocks | [Cyclops](store.md#bulk-crafting) donor rank |
 
 ---
 

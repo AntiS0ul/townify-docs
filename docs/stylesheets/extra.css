@@ -43,7 +43,6 @@
 }
 .chip.money  { background: rgba(76, 175, 80, 0.18);  color: #4caf50; }
 .chip.gems   { background: rgba(156, 39, 176, 0.18); color: #ce93d8; }
-.chip.points { background: rgba(33, 150, 243, 0.18); color: #64b5f6; }
 
 /* Make the "grid cards" on landing pages a little punchier */
 .md-typeset .grid.cards > ul > li {

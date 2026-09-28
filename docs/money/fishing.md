@@ -13,8 +13,8 @@ Each fish can have:
 - **Value** when sold — rarer, bigger fish are worth more
 
 ```
-/emf shop       # sell your catches / fishing shop :material-wrench:
-/emf help       # fishing commands :material-wrench:
+/emf shop       # sell your catches (or /fsell to sell all)
+/emf help       # fishing commands
 ```
 
 !!! tip "Rare fish = real money"
@@ -44,7 +44,7 @@ This is where fishing gets competitive. TownifyMC runs **timed fishing competiti
 - When the timer ends, the **top finishers win prizes** — typically **money and Gems**, scaled by placement.
 
 ```
-/emf top        # see the current competition leaderboard :material-wrench:
+/emf top        # see the current competition leaderboard
 ```
 
 !!! info "Watch for the announcement"

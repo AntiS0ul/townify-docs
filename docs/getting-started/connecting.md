@@ -8,7 +8,7 @@ TownifyMC supports **both Java and Bedrock Edition** through crossplay, so you c
 
     | | |
     |---|---|
-    | **Address** | `play.townifymc.xyz` :material-wrench: |
+    | **Address** | `play.townifymc.xyz` |
     | **Version** | Latest release (older versions supported via ViaVersion) |
 
     1. Open Minecraft: Java Edition.
@@ -23,8 +23,8 @@ TownifyMC supports **both Java and Bedrock Edition** through crossplay, so you c
 
     | | |
     |---|---|
-    | **Address** | `play.townifymc.xyz` :material-wrench: |
-    | **Port** | `19132` :material-wrench: |
+    | **Address** | `play.townifymc.xyz` |
+    | **Port** | `19132` (the default Bedrock port) |
 
     Bedrock players (mobile, console, Windows 10/11) connect through **Geyser**, which bridges Bedrock to our Java server.
 
@@ -34,7 +34,7 @@ TownifyMC supports **both Java and Bedrock Edition** through crossplay, so you c
     4. Save and join.
 
     !!! note "Console players"
-        Some consoles restrict adding custom servers. If you're stuck, search online for "add custom server" instructions for your specific console, or ask in [Discord](https://discord.gg/townifymc) — other players have usually figured out the workaround for each platform.
+        Some consoles restrict adding custom servers. If you're stuck, search online for "add custom server" instructions for your specific console, or ask in [Discord](https://discord.gg/townify) — other players have usually figured out the workaround for each platform.
 
 ## Crossplay & linking accounts
 
@@ -50,9 +50,9 @@ Run through this quick checklist:
 - [ ] You typed the address exactly, with no extra spaces.
 - [ ] (Bedrock) You included the **port**.
 - [ ] Your client is on a reasonably recent version.
-- [ ] The server isn't restarting — check [Discord](https://discord.gg/townifymc) for announcements.
+- [ ] The server isn't restarting — check [Discord](https://discord.gg/townify) for announcements.
 
-Still stuck? Hop into our [Discord](https://discord.gg/townifymc) and a staff member or player will help you get connected.
+Still stuck? Hop into our [Discord](https://discord.gg/townify) and a staff member or player will help you get connected.
 
 ---
 

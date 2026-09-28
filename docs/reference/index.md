@@ -4,6 +4,12 @@ Quick-reference material for when you just need to look something up.
 
 <div class="grid cards" markdown>
 
+-   :material-keyboard: **[Useful Commands & Shortcuts](shortcuts.md)**
+
+    ---
+
+    Short aliases, one-click menus, toggles, and in-game controls. The fastest way to learn the server.
+
 -   :material-console: **[Command Reference](commands.md)**
 
     ---

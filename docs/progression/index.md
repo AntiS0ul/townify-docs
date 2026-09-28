@@ -14,7 +14,7 @@ TownifyMC has multiple parallel progression systems. You don't have to engage wi
 
     ---
 
-    Money, Gems, and Vote Points — what each one is and how to earn it.
+    Money and Gems — what each one is and how to earn it.
 
 -   :material-pickaxe: **[Jobs](jobs.md)**
 

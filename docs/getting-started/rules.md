@@ -74,4 +74,4 @@ These rules apply to **every part of the Townify community** — in-game chat, p
 
 ---
 
-Questions about a rule, or need to report something? Open a **ticket** or ask in [Discord](https://discord.gg/townifymc). When in doubt, ask staff before acting.
+Questions about a rule, or need to report something? Open a **ticket** or ask in [Discord](https://discord.gg/townify). When in doubt, ask staff before acting.

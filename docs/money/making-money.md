@@ -15,6 +15,10 @@ Here's every way to make money on TownifyMC, roughly ordered from "best for new 
 | [Fishing comps](fishing.md) | Medium | ⭐⭐⭐ | Competitive players |
 | [Battle Pass](../progression/quests.md) | Low | ⭐⭐⭐ | Seasonal rewards |
 | Spawners & farms | High setup | ⭐⭐⭐⭐ | Long-term passive money |
+| [AFK Pool](../rewards/events.md#afk-pool) | None | ⭐⭐⭐ | Earning while away |
+| [Chat Games](../rewards/events.md#chat-games) | Tiny | ⭐⭐ | Free Gems & spawners |
+| [Bounties](../world/dungeons.md#bounties) | High | ⭐⭐ | PvP players |
+| [Referrals](../rewards/events.md#referral-program) | Tiny | ⭐ | Bringing friends |
 
 ## 1. Jobs — your foundation
 
@@ -22,7 +26,7 @@ Here's every way to make money on TownifyMC, roughly ordered from "best for new 
 
 ## 2. Voting — free money, every day
 
-[Voting](../rewards/voting.md) for the server on listing sites takes about a minute and pays out **money, Vote Points, and crate keys** every single day. There is no faster money-per-effort on the server. → [Voting guide](../rewards/voting.md)
+[Voting](../rewards/voting.md) for the server on listing sites takes about a minute and pays out **money and crate keys** every single day. There is no faster money-per-effort on the server. → [Voting guide](../rewards/voting.md)
 
 ## 3. Selling what you gather
 
@@ -48,6 +52,24 @@ Got something rare and valuable? List it on the **[auction house](shops.md)** (`
 ## 7. Spawners and farms (long game)
 
 Building automated **farms** (crops, mobs, etc.) and acquiring **spawners** creates passive income and resources at scale. Note that **Silk Touch spawner mining** unlocks at **Elder (rank #13)** — a milestone for serious money-makers who want to relocate and stack spawners.
+
+## 8. The AFK Pool
+
+Need to step away? Stand in the [AFK Pool](../rewards/events.md#afk-pool) for **$200–$1,000 every hour**, or use the key pool for a **free Vote Crate key every 90 minutes**.
+
+## 9. Chat games, bounties & more
+
+- **[Chat Games](../rewards/events.md#chat-games)** pop up every 15 minutes. Answer first to win Gems or a farm spawner.
+- **[Bounties](../world/dungeons.md#bounties)**: hunt players with a price on their head.
+- **[Referrals](../rewards/events.md#referral-program)**: get $250 for each friend who plays 2 hours.
+
+## Track what you're earning
+
+```
+/jobearnings    # today, last hour, this session, and $/hour
+```
+
+Use it to compare jobs and routes. If a new setup earns more per hour, you'll see it here.
 
 ## Putting it together — a money routine
 

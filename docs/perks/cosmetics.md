@@ -7,29 +7,21 @@ This is the fun stuff — the features that let you express yourself, show off y
 Deck out your character with **visual cosmetics** — particle trails, gadgets, emotes, and effects that have no gameplay impact but look great.
 
 ```
-/cosmetics      # open the cosmetics menu :material-wrench:
-/cc             # shortcut :material-wrench:
+/uc menu        # open the cosmetics menu
 ```
 
 Typical cosmetic categories include:
 
 - **Particle effects / trails** that follow you as you move
 - **Gadgets** — fun, toy-like items
-- **Pets** (see below)
+- **Pets**
 - **Morphs / hats** and other visual flair
 
 Some cosmetics are free, others are unlocked through ranks, crates, events, or the store. Browse the menu to see what you've got and what's available.
 
 ## Pets
 
-Summon **companion pets** that follow you around the world — a loyal sidekick for your adventures.
-
-```
-/pets           # open the pets menu :material-wrench:
-/mcpets         # alternative :material-wrench:
-```
-
-Pets are cosmetic companions (collect them from rewards, crates, events, or the store). Some servers give pets little perks or animations — check the menu for what each one does on TownifyMC.
+Summon **companion pets** that follow you around the world. Pets live in the cosmetics menu: open `/uc menu` and pick the pets section.
 
 ## Marriage
 
@@ -37,7 +29,7 @@ Pair up with another player through the **marriage** system for shared perks and
 
 ```
 /marry <player>     # propose to a player
-/marry              # marriage menu / status :material-wrench:
+/marry              # list all marriage commands
 ```
 
 Married couples typically get perks like:
@@ -64,18 +56,6 @@ Brewing access **expands as you rank up**:
 
 So brewing goes from a hobby to a genuine high-tier craft as you progress — higher ranks unlock better recipes, aging, and distilling techniques.
 
-## Disguises
-
-Transform your appearance with the **disguise** system — turn into mobs and other forms.
-
-```
-/disguise       # disguise yourself :material-wrench:
-/d              # shortcut :material-wrench:
-/undisguise     # turn back :material-wrench:
-```
-
-Disguises are mostly cosmetic fun (access may be tied to ranks, perks, or the store).
-
 ## Death Chests (Graves)
 
 Not a cosmetic, but a quality-of-life feature you'll be grateful for: when you die, your items don't scatter and despawn — they're stored in a **grave** at your death location for you to recover.
@@ -86,6 +66,38 @@ Not a cosmetic, but a quality-of-life feature you'll be grateful for: when you d
 
 !!! warning "Graves aren't forever"
     Graves usually have a **timer** before they expire. Head back to recover your items reasonably promptly, especially after a death in a dangerous area.
+
+## Poses & sitting
+
+Sit on stairs and slabs, lie down, or strike a pose:
+
+```
+/poses          # pose menu
+/sit            # sit down
+/lay            # lie down
+/crawl          # crawl
+/spin           # spin
+/bellyflop      # bellyflop
+```
+
+You can also **right-click another player** to sit on them, if they allow it.
+
+## Glow
+
+Donors with **Banshee** or higher can give themselves a colored glowing outline:
+
+```
+/glow               # toggle on/off
+/glow <color>       # e.g. /glow aqua
+/glow list          # see all 16 colors
+/glow off
+```
+
+## Show off in chat
+
+Type **`[item]`** or **`[i]`** in a chat message to show the item you're holding. Other players can hover over it to see its name, enchants, and lore.
+
+Emojis are available in chat as well (Phoenix donors unlock **all** of them).
 
 ## Other expression perks
 

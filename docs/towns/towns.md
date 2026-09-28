@@ -50,12 +50,26 @@ In plain terms:
 - Each chunk you claim costs a little **more** than the last (starting at $25, rising $1 each time, capped at $250).
 - Your town can hold **8 townblocks per resident** — so the more members you recruit, the more land you can claim. A solo town is limited; a populous town can sprawl.
 - You can also **purchase bonus townblocks** beyond your resident limit for <span class="chip money">$100</span> each (the price climbs as you buy more).
+- **Town Deeds** add free bonus chunks (see below).
 
 ```
 /town claim           # claim the current chunk
 /town claim outpost   # claim a detached outpost (away from your town)
 /town unclaim         # release the current chunk
 ```
+
+### Town Deeds
+
+**Town Deeds** are reward items that permanently add bonus claim chunks to your town. **Right-click** one while you're a member of a town to redeem it:
+
+| Deed | Bonus chunks |
+|------|:------------:|
+| :material-file-document: **Common Town Deed** | +1 |
+| :material-file-document: **Rare Town Deed** | +3 |
+| :material-file-document: **Epic Town Deed** | +5 |
+| :material-file-document: **Legendary Town Deed** | +10 |
+
+The bonus goes to the town you're in. Pass deeds to your mayor if you want to help grow the town.
 
 !!! warning "Plan your layout"
     Because claims cost more as you grow and you're capped by resident count, **claim deliberately**. Grab the land you'll actually build on rather than claiming everything in sight early.
@@ -92,7 +106,9 @@ A town is a small economy of its own:
 
 TownifyMC layers several add-ons on top of standard Towny:
 
-- **:material-airplane: TownyFlight** — lets eligible players fly within town claims (also tied to [rank perks](../progression/ranks.md) like Fly in Claims at Marquess).
+- **:material-airplane: TownyFlight** — lets eligible players fly within town claims. Unlock it through [rank perks](../progression/ranks.md) (Fly in Claims at Marquess) or buy **Town Flight** from the [Gem Store](../perks/store.md). Check with `/canfly`.
+- **:material-road: Roads** — player-built roads give a speed boost of up to +75%. Connect your town to its neighbors (see [Roads](../world/travel.md#roads-travel-faster)).
+- **:material-elevator: Elevators** — jump/sneak elevator blocks for multi-floor builds (see [Elevators](../world/travel.md#elevators)).
 - **:material-tent: Towny Camps** — set up temporary camps in the wilderness.
 - **:material-book-open-variant: Towny Histories** — your town keeps a historical record.
 - **:material-peace: Towny Pacifist** — towns can opt into a pacifist stance (relevant to [war](war.md)).

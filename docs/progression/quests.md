@@ -4,12 +4,14 @@ Beyond the rank ladder, TownifyMC gives you **daily goals** and **seasonal progr
 
 ## Daily Quests
 
-Every day you get a fresh set of quests — small objectives like mining a certain amount, killing mobs, farming crops, or fishing. Complete them for rewards.
+Every day you get **three quests**, one each of **Easy**, **Medium**, and **Hard**: small objectives like mining a certain amount, killing mobs, farming crops, or fishing. Complete them for rewards. Quests **reset at midnight** (server time).
 
 ```
-/quests         # open your daily quests :material-wrench:
-/dailyquests    # alternative command :material-wrench:
+/quests         # open your daily quests
 ```
+
+!!! tip "Don't like today's quest? Reroll it"
+    **Quest Reroll** items (Easy, Medium, or Hard) swap out that difficulty's quest for a new one. Just **right-click** the reroll with it in your hand. Rerolls come from rewards and events.
 
 **Why bother:** daily quests are designed to reward the things you're doing anyway. Knocking them out each day is a reliable trickle of money, items, and progression — and they reset every day, so there's always something to do.
 
@@ -21,8 +23,8 @@ Every day you get a fresh set of quests — small objectives like mining a certa
 Just logging in pays off. TownifyMC has a **login reward** system with an escalating streak — the more consecutive days you log in, the better the rewards get.
 
 ```
-/rewards        # claim your daily login reward :material-wrench:
-/daily          # alternative command :material-wrench:
+/rewards        # claim your daily login reward
+/dailyrewards   # alternative command
 ```
 
 **Keep your streak alive** — missing a day can reset your progress back toward the smaller rewards, so it pays to pop in daily even if only for a minute.
@@ -34,11 +36,10 @@ TownifyMC runs a **seasonal Battle Pass** with two tracks:
 | Track | Cost | What you get |
 |-------|------|--------------|
 | **Free** | Free for everyone | A solid set of rewards as you tier up |
-| **Premium** | Purchase/unlock :material-wrench: | Everything in Free **plus** an upgraded reward at most tiers |
+| **Premium** | <span class="chip gems">15,000 Gems</span> from the [Gem Store](../perks/store.md) | Everything in Free **plus** an upgraded reward at most tiers |
 
 ```
-/battlepass     # open the battle pass menu :material-wrench:
-/bp             # shortcut :material-wrench:
+/battlepass     # open the battle pass menu
 ```
 
 ### How it works
@@ -56,7 +57,7 @@ TownifyMC runs a **seasonal Battle Pass** with two tracks:
 A good daily routine on TownifyMC:
 
 1. **Log in** → claim your [daily reward](#daily-login-rewards).
-2. **[Vote](../rewards/voting.md)** → points, money, and crate keys.
+2. **[Vote](../rewards/voting.md)** → money and crate keys.
 3. **Check [daily quests](#daily-quests)** → see what today's objectives are.
 4. **Play your [job](jobs.md)** in a way that knocks out quests and battle-pass missions at the same time.
 5. **Crack any [crate keys](../rewards/crates.md)** you earned.

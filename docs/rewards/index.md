@@ -1,6 +1,6 @@
 # Rewards
 
-Free stuff! TownifyMC rewards you just for showing up and supporting the server. The two big systems here are **voting** (free daily rewards) and **crates** (loot boxes with the server's best items).
+Free stuff! TownifyMC rewards you just for showing up and supporting the server. The two big systems here are **voting** (free daily rewards) and **crates** (loot boxes with the server's best items). Chat games, piñata parties, the lottery, the AFK Pool, kits, and referrals add more on top.
 
 <div class="grid cards" markdown>
 
@@ -8,7 +8,7 @@ Free stuff! TownifyMC rewards you just for showing up and supporting the server.
 
     ---
 
-    Vote for the server daily to earn money, Vote Points, and crate keys. The best free rewards on the server.
+    Vote for the server daily to earn money and crate keys. The best free rewards on the server.
 
 -   :material-treasure-chest: **[Crates](crates.md)**
 
@@ -16,13 +16,19 @@ Free stuff! TownifyMC rewards you just for showing up and supporting the server.
 
     Seven kinds of crates, from the everyday Vote Crate to the prestigious King's Crate.
 
+-   :material-party-popper: **[Events & Minigames](events.md)**
+
+    ---
+
+    Chat games, Piñata Parties, the lottery, the AFK Pool, free kits, daily rewards, and referral bonuses.
+
 </div>
 
 ## The daily reward loop
 
 ```mermaid
 graph LR
-    V[Vote daily] --> P[Vote Points + Money]
+    V[Vote daily] --> P[Money]
     V --> K[Crate Keys]
     K --> C[Open Crates]
     C --> L[Loot: gear, money, gems, rare items]

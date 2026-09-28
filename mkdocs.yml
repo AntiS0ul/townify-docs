@@ -86,7 +86,7 @@ plugins:
 extra:
   social:
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/townifymc
+      link: https://discord.gg/townify
       name: Join our Discord
     - icon: material/map
       link: https://map.townifymc.xyz
@@ -112,6 +112,10 @@ nav:
       - Creating a Town: towns/towns.md
       - Nations: towns/nations.md
       - Sieges & War: towns/war.md
+  - World & Adventure:
+      - world/index.md
+      - Travel & Worlds: world/travel.md
+      - Dungeons & Combat: world/dungeons.md
   - Making Money:
       - money/index.md
       - Ways to Earn: money/making-money.md
@@ -121,11 +125,14 @@ nav:
       - rewards/index.md
       - Voting: rewards/voting.md
       - Crates: rewards/crates.md
+      - Events & Minigames: rewards/events.md
   - Perks & Extras:
       - perks/index.md
       - Storage & Backpacks: perks/storage.md
       - Cosmetics & Pets: perks/cosmetics.md
+      - Gem Store & Upgrades: perks/store.md
   - Reference:
       - reference/index.md
+      - Useful Commands & Shortcuts: reference/shortcuts.md
       - Command Reference: reference/commands.md
       - FAQ: reference/faq.md

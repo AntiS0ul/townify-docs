@@ -30,7 +30,7 @@ If you just want to make money fast as a new player:
 
 1. **[Join a job](../progression/jobs.md)** and work it — this is your bread and butter.
 2. **Sell what you gather** on the [player markets](shops.md) or [auction house](shops.md).
-3. **[Vote daily](../rewards/voting.md)** for free money, points, and crate keys.
+3. **[Vote daily](../rewards/voting.md)** for free money and crate keys.
 4. **Do your [daily quests](../progression/quests.md)** — they pay out and overlap with your job.
 
 Once you've got starter capital, graduate to running a [player shop](shops.md) or flipping items on the [auction house](shops.md).
