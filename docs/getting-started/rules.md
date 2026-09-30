@@ -37,6 +37,7 @@ These rules apply to **every part of the Townify community** — in-game chat, p
 
 - Fully automatic machines or setups that generate money, items, drops, experience, or other value **without player interaction** are not allowed unless staff has explicitly approved that mechanic.
 - Common utility machines such as smelters, brewing setups, and simple storage systems are allowed if they do not bypass server limits, automate profit, or run unattended in a harmful way.
+- Shulker farms are also allowed as long as a player is loading the farm and is not afk. Chunk loaders are not allowed to keep a farm running.
 - Bypassing AFK systems to keep farms, machines, macros, or accounts running is not allowed.
 - Autoclickers, macros, and similar tools may not be used while AFK.
 - Any allowed autoclicker or macro must stay **at or below 8 CPS**, must not automate full gameplay, and you must be able to respond to staff **within 2 minutes**.
