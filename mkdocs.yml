@@ -13,8 +13,8 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
+  logo: assets/logo.png
   icon:
-    logo: material/castle
     repo: fontawesome/brands/github
   favicon: favicon.ico
   palette:

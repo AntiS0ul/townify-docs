@@ -6,7 +6,7 @@ TownifyMC is a Towny survival-economy server where you start as a humble **Pleb*
 
 This guide covers everything you need to go from "just joined" to "running a nation."
 
-!!! tip "New here? Start with these three pages"
+!!! tip "New here? Start with these four pages"
     1. [Connecting (Java & Bedrock)](getting-started/connecting.md) — get in the game
     2. [Your First Hour](getting-started/first-hour.md) — what to do first
     3. [The Rank Ladder](progression/ranks.md) — how progression works

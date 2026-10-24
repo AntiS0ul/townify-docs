@@ -62,3 +62,37 @@
 .tier-legendary { color: #ba68c8; font-weight: 600; }
 .tier-royal     { color: #ffb300; font-weight: 600; }
 .tier-celestial { color: #ffee58; font-weight: 700; }
+
+/* Header logo: Townify badge, larger than Material's default icon size */
+.md-header__button.md-logo {
+  margin: 0.1rem 0.4rem;
+  padding: 0.2rem;
+}
+.md-header__button.md-logo img {
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 0.45rem;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+/* Desktop: ~20% bigger logo, with the site title vertically centered on it */
+@media screen and (min-width: 76.25em) {
+  .md-header__inner {
+    align-items: center;
+  }
+  .md-header__button.md-logo img {
+    height: 2.65rem;
+    width: 2.65rem;
+  }
+  .md-header__title {
+    align-self: stretch;
+    height: auto;
+  }
+  .md-header__title .md-header__ellipsis {
+    height: 100%;
+  }
+  .md-header__title .md-header__topic {
+    height: 100%;
+    align-items: center;
+  }
+}
