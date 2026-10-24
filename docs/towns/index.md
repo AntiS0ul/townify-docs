@@ -10,6 +10,12 @@ Towny is the heart of TownifyMC. It's how you **claim and protect land**, build 
 
     Found a town, claim land, invite residents, set taxes, and protect your builds.
 
+-   :material-account-group: **[Collaboration & Sharing](collaboration.md)**
+
+    ---
+
+    Give friends access to your land, chests, shops, stalls, and warps.
+
 -   :material-flag-variant: **[Nations](nations.md)**
 
     ---

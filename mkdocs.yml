@@ -110,6 +110,7 @@ nav:
   - Towns & Nations:
       - towns/index.md
       - Creating a Town: towns/towns.md
+      - Collaboration & Sharing: towns/collaboration.md
       - Nations: towns/nations.md
       - Sieges & War: towns/war.md
   - World & Adventure:

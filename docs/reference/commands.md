@@ -89,6 +89,21 @@ A grouped list of the commands you'll actually use on TownifyMC.
 | `/plot forsale <price>` | Put a plot up for sale |
 | `/plot set perm` | Per-plot permissions |
 
+## Sharing & access
+
+| Command | What it does |
+|---------|-------------|
+| `/res friend add <player>` · `/res friend remove <player>` | Manage your Towny friends |
+| `/plot set perm friend on` | Let friends build/use the plot you're in |
+| `/plot trust add <player>` · `/plot trust remove <player>` | Trust a player on this plot |
+| `/town rank add <player> <rank>` | Give a town rank (assistant, helper, sheriff, …) |
+| `/cmodify <player>` · `/cmodify -<player>` | Add/remove access on a locked container |
+| `/cinfo` · `/cpublic` · `/cprivate` · `/cremove` | Container lock info and settings |
+| `/chopper on` · `/chopper off` | Allow/block hoppers on a locked container |
+| `/tc` · `/nc` · `/ac` · `/g` | Town · nation · alliance · global chat |
+
+See [Collaboration & Sharing](../towns/collaboration.md).
+
 ## Towny — nation
 
 | Command | What it does |

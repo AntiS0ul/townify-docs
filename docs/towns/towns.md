@@ -116,4 +116,4 @@ TownifyMC layers several add-ons on top of standard Towny:
 
 ---
 
-**Next:** [Nations →](nations.md)
+**Next:** [Collaboration & Sharing →](collaboration.md)

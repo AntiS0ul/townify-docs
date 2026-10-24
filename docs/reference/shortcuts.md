@@ -122,6 +122,20 @@ Some features use clicks, jumps, and chat instead of commands:
 | **Right-click** a Void Storage item | Take out a stack; **Shift + Left-click** to deposit everything that matches |
 | Walk on **dirt paths / stone / brick** | Get a road speed boost |
 
+## Sharing with friends
+
+| Command | Does |
+|---------|------|
+| `/res friend add <player>` | Add a Towny friend |
+| `/plot set perm friend on` | Let friends build on the plot you're in |
+| `/plot trust add <player>` | Trust a player on this plot only |
+| `/cmodify <player>` | Give a player access to the container you're looking at |
+| `/cinfo` | See who can open a container |
+| `/chopper on` | Let hoppers pull from / push into your locked container |
+| `/tc` · `/nc` · `/ac` | Town / nation / alliance chat |
+
+Full details: [Collaboration & Sharing](../towns/collaboration.md).
+
 ## Teleport shortcuts
 
 | Command | Where to |

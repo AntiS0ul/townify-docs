@@ -56,6 +56,12 @@ Quick answers to the questions new players ask most. Can't find yours? Ask in [D
 ??? question "Can someone grief or raid my town?"
     Towny protects your claimed land from griefing. War happens **only** through the official [Siege War](../towns/war.md) system — which fights for control, **not** by destroying your builds. Working around protection to grief is against the [rules](../getting-started/rules.md).
 
+??? question "My friend can't build on my land or open my chests. How do I share?"
+    Add them with `/res friend add <player>` and turn on `/plot set perm friend on`, then look at a chest and run `/cmodify <player>`. Full guide: [Collaboration & Sharing](../towns/collaboration.md).
+
+??? question "Why won't my hopper pull items out of my chest?"
+    Locked containers block hoppers by default. Run `/chopper on` and left-click the container, then do the same for every locked container in the setup. See [Letting hoppers use locked containers](../towns/collaboration.md#letting-hoppers-use-locked-containers).
+
 ??? question "What are Town Deeds?"
     Reward items that add **+1, +3, +5, or +10** bonus claim chunks to your town. Right-click one while you're in a town. See [Creating a Town](../towns/towns.md#town-deeds).
 
